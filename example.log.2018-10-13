@@ -1,0 +1,1228 @@
+[INFO ] 10-13 15:34:13,053 Version.java,21 [HV000001: Hibernate Validator 6.0.7.Final]
+[INFO ] 10-13 15:34:13,233 StartupInfoLogger.java,50 [Starting ExampleprojectApplication on liyakun00 with PID 9172 (D:\tmp\exampleproject\exampleproject\target\classes started by liyakun in D:\tmp\exampleproject\exampleproject)]
+[INFO ] 10-13 15:34:13,234 SpringApplication.java,652 [No active profile set, falling back to default profiles: default]
+[INFO ] 10-13 15:34:13,312 AbstractApplicationContext.java,589 [Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@51a67b35: startup date [Sat Oct 13 15:34:13 CST 2018]; root of context hierarchy]
+[INFO ] 10-13 15:34:14,513 DefaultListableBeanFactory.java,824 [Overriding bean definition for bean 'dataSource' with a different definition: replacing [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Generic; factoryMethodName=dataSource; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Generic.class]] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Hikari; factoryMethodName=dataSource; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]]]
+[INFO ] 10-13 15:34:15,299 PostProcessorRegistrationDelegate.java,328 [Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$49c37882] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)]
+[INFO ] 10-13 15:34:15,366 PostProcessorRegistrationDelegate.java,328 [Bean 'org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration' of type [org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration$$EnhancerBySpringCGLIB$$e27140bc] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)]
+[INFO ] 10-13 15:34:15,378 PostProcessorRegistrationDelegate.java,328 [Bean 'objectPostProcessor' of type [org.springframework.security.config.annotation.configuration.AutowireBeanFactoryObjectPostProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)]
+[INFO ] 10-13 15:34:15,381 PostProcessorRegistrationDelegate.java,328 [Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@38dfb0d1' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)]
+[INFO ] 10-13 15:34:15,390 PostProcessorRegistrationDelegate.java,328 [Bean 'org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration' of type [org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration$$EnhancerBySpringCGLIB$$745e36e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)]
+[INFO ] 10-13 15:34:15,407 PostProcessorRegistrationDelegate.java,328 [Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)]
+[INFO ] 10-13 15:34:15,693 Log.java,192 [Logging initialized @4158ms to org.eclipse.jetty.util.log.Slf4jLog]
+[INFO ] 10-13 15:34:15,821 JettyServletWebServerFactory.java,146 [Server initialized with port: 8080]
+[INFO ] 10-13 15:34:15,823 Server.java,373 [jetty-9.4.8.v20171121, build timestamp: 2017-11-22T05:27:37+08:00, git hash: 82b8fb23f757335bb3329d540ce37a2a2615f0a8]
+[INFO ] 10-13 15:34:15,953 DefaultSessionIdManager.java,364 [DefaultSessionIdManager workerName=node0]
+[INFO ] 10-13 15:34:15,954 DefaultSessionIdManager.java,369 [No SessionScavenger set, using defaults]
+[INFO ] 10-13 15:34:15,958 HouseKeeper.java,149 [Scavenging every 660000ms]
+[INFO ] 10-13 15:34:15,970 ContextHandler.java,2221 [Initializing Spring embedded WebApplicationContext]
+[INFO ] 10-13 15:34:15,970 ServletWebServerApplicationContext.java,285 [Root WebApplicationContext: initialization completed in 2661 ms]
+[INFO ] 10-13 15:34:16,348 AbstractFilterRegistrationBean.java,243 [Mapping filter: 'characterEncodingFilter' to: [/*]]
+[INFO ] 10-13 15:34:16,348 AbstractFilterRegistrationBean.java,243 [Mapping filter: 'hiddenHttpMethodFilter' to: [/*]]
+[INFO ] 10-13 15:34:16,349 AbstractFilterRegistrationBean.java,243 [Mapping filter: 'httpPutFormContentFilter' to: [/*]]
+[INFO ] 10-13 15:34:16,349 AbstractFilterRegistrationBean.java,243 [Mapping filter: 'requestContextFilter' to: [/*]]
+[INFO ] 10-13 15:34:16,350 AbstractFilterRegistrationBean.java,243 [Mapping filter: 'springSecurityFilterChain' to: [/*]]
+[INFO ] 10-13 15:34:16,351 ServletRegistrationBean.java,185 [Servlet dispatcherServlet mapped to [/]]
+[INFO ] 10-13 15:34:16,359 ContextHandler.java,788 [Started o.s.b.w.e.j.JettyEmbeddedWebAppContext@70b0d6d{/example,[file:///C:/Users/liyakun/AppData/Local/Temp/jetty-docbase.1645495707121376636.8080/],AVAILABLE}]
+[INFO ] 10-13 15:34:16,360 Server.java,410 [Started @4826ms]
+[INFO ] 10-13 15:34:16,672 HikariDataSource.java,110 [HikariPool-1 - Starting...]
+[INFO ] 10-13 15:34:17,232 PoolBase.java,516 [HikariPool-1 - Driver does not support get/set network timeout for connections. (oracle.jdbc.driver.T4CConnection.getNetworkTimeout()I)]
+[INFO ] 10-13 15:34:17,239 HikariDataSource.java,123 [HikariPool-1 - Start completed.]
+[INFO ] 10-13 15:34:17,308 LocalContainerEntityManagerFactoryBean.java,361 [Building JPA container EntityManagerFactory for persistence unit 'default']
+[INFO ] 10-13 15:34:17,323 LogHelper.java,31 [HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]]
+[INFO ] 10-13 15:34:17,428 Version.java,45 [HHH000412: Hibernate Core {5.2.14.Final}]
+[INFO ] 10-13 15:34:17,431 Environment.java,213 [HHH000206: hibernate.properties not found]
+[INFO ] 10-13 15:34:17,483 JavaReflectionManager.java,66 [HCANN000001: Hibernate Commons Annotations {5.0.1.Final}]
+[INFO ] 10-13 15:34:17,751 Dialect.java,157 [HHH000400: Using dialect: org.hibernate.dialect.Oracle12cDialect]
+[INFO ] 10-13 15:34:17,921 BasicTypeRegistry.java,148 [HHH000270: Type registration [byte[]] overrides previous : org.hibernate.type.BinaryType@37b8d41b]
+[INFO ] 10-13 15:34:17,921 BasicTypeRegistry.java,148 [HHH000270: Type registration [[B] overrides previous : org.hibernate.type.BinaryType@37b8d41b]
+[INFO ] 10-13 15:34:17,922 BasicTypeRegistry.java,148 [HHH000270: Type registration [Byte[]] overrides previous : org.hibernate.type.WrapperBinaryType@6891492d]
+[INFO ] 10-13 15:34:17,922 BasicTypeRegistry.java,148 [HHH000270: Type registration [[Ljava.lang.Byte;] overrides previous : org.hibernate.type.WrapperBinaryType@6891492d]
+[INFO ] 10-13 15:34:24,839 AbstractEntityManagerFactoryBean.java,394 [Initialized JPA EntityManagerFactory for persistence unit 'default']
+[INFO ] 10-13 15:34:29,707 DefaultSecurityFilterChain.java,43 [Creating filter chain: org.springframework.security.web.util.matcher.AnyRequestMatcher@1, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@5876b05, org.springframework.security.web.context.SecurityContextPersistenceFilter@1515eb02, org.springframework.security.web.header.HeaderWriterFilter@7417e528, org.springframework.security.web.authentication.logout.LogoutFilter@588c4b13, com.inspur.exampleproject.jwt.JWTLoginFilter@b670cf4, com.inspur.exampleproject.jwt.JWTLoginFilter@4a04b634, com.inspur.exampleproject.jwt.JWTAuthenticationFilter@49a9fe2d, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@490bb103, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@3317f048, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@77486b5e, org.springframework.security.web.session.SessionManagementFilter@379d417e, org.springframework.security.web.access.ExceptionTranslationFilter@663c09e9, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@494bba8b]]
+[INFO ] 10-13 15:34:30,200 RequestMappingHandlerAdapter.java,567 [Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@51a67b35: startup date [Sat Oct 13 15:34:13 CST 2018]; root of context hierarchy]
+[WARN ] 10-13 15:34:30,262 JpaBaseConfiguration.java,235 [spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning]
+[INFO ] 10-13 15:34:30,315 AbstractHandlerMethodMapping.java,548 [Mapped "{[/login],methods=[POST]}" onto public org.springframework.http.ResponseEntity<java.lang.Void> com.inspur.exampleproject.web.controller.TestController.login(com.inspur.exampleproject.web.resq.UserInfo)]
+[INFO ] 10-13 15:34:30,317 AbstractHandlerMethodMapping.java,548 [Mapped "{[/getAllmap],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.util.List> com.inspur.exampleproject.web.controller.TestController.getAlldataMap()]
+[INFO ] 10-13 15:34:30,318 AbstractHandlerMethodMapping.java,548 [Mapped "{[/getAlldata],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.util.List<com.inspur.exampleproject.entity.DemoTest>> com.inspur.exampleproject.web.controller.TestController.getAlldata()]
+[INFO ] 10-13 15:34:30,321 AbstractHandlerMethodMapping.java,548 [Mapped "{[/view/{url}]}" onto public java.lang.String com.inspur.exampleproject.web.HomeController.mainPage(java.lang.String)]
+[INFO ] 10-13 15:34:30,327 AbstractHandlerMethodMapping.java,548 [Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)]
+[INFO ] 10-13 15:34:30,328 AbstractHandlerMethodMapping.java,548 [Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)]
+[INFO ] 10-13 15:34:30,442 AbstractUrlHandlerMapping.java,373 [Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]]
+[INFO ] 10-13 15:34:30,442 AbstractUrlHandlerMapping.java,373 [Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]]
+[INFO ] 10-13 15:34:30,536 AbstractUrlHandlerMapping.java,373 [Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]]
+[WARN ] 10-13 15:34:30,992 OptionalLiveReloadServer.java,61 [Unable to start LiveReload server]
+[INFO ] 10-13 15:34:31,261 MBeanExporter.java,434 [Registering beans for JMX exposure on startup]
+[INFO ] 10-13 15:34:31,263 MBeanExporter.java,896 [Bean with name 'dataSource' has been autodetected for JMX exposure]
+[INFO ] 10-13 15:34:31,271 MBeanExporter.java,669 [Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]]
+[INFO ] 10-13 15:34:31,292 ContextHandler.java,2221 [Initializing Spring FrameworkServlet 'dispatcherServlet']
+[INFO ] 10-13 15:34:31,293 FrameworkServlet.java,494 [FrameworkServlet 'dispatcherServlet': initialization started]
+[INFO ] 10-13 15:34:31,324 FrameworkServlet.java,513 [FrameworkServlet 'dispatcherServlet': initialization completed in 31 ms]
+[INFO ] 10-13 15:34:31,356 AbstractConnector.java,288 [Started ServerConnector@4469a1b9{HTTP/1.1,[http/1.1]}{0.0.0.0:8080}]
+[INFO ] 10-13 15:34:31,360 JettyWebServer.java,158 [Jetty started on port(s) 8080 (http/1.1) with context path '/example']
+[INFO ] 10-13 15:34:31,364 StartupInfoLogger.java,59 [Started ExampleprojectApplication in 18.454 seconds (JVM running for 19.83)]
+[INFO ] 10-13 15:34:46,772 QueryTranslatorFactoryInitiator.java,47 [HHH000397: Using ASTQueryTranslatorFactory]
+[INFO ] 10-13 15:35:43,020 AbstractApplicationContext.java,989 [Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@51a67b35: startup date [Sat Oct 13 15:34:13 CST 2018]; root of context hierarchy]
+[INFO ] 10-13 15:35:43,031 MBeanExporter.java,452 [Unregistering JMX-exposed beans on shutdown]
+[INFO ] 10-13 15:35:43,033 MBeanRegistrationSupport.java,183 [Unregistering JMX-exposed beans]
+[INFO ] 10-13 15:35:43,038 AbstractEntityManagerFactoryBean.java,572 [Closing JPA EntityManagerFactory for persistence unit 'default']
+[INFO ] 10-13 15:35:43,044 HikariDataSource.java,381 [HikariPool-1 - Shutdown initiated...]
+[INFO ] 10-13 15:35:43,481 HikariDataSource.java,383 [HikariPool-1 - Shutdown completed.]
+[INFO ] 10-13 15:35:43,486 AbstractConnector.java,331 [Stopped ServerConnector@4469a1b9{HTTP/1.1,[http/1.1]}{0.0.0.0:8080}]
+[INFO ] 10-13 15:35:43,488 HouseKeeper.java,167 [Stopped scavenging]
+[INFO ] 10-13 15:35:43,490 ContextHandler.java,2221 [Destroying Spring FrameworkServlet 'dispatcherServlet']
+[INFO ] 10-13 15:35:43,491 ContextHandler.java,957 [Stopped o.s.b.w.e.j.JettyEmbeddedWebAppContext@70b0d6d{/example,[file:///C:/Users/liyakun/AppData/Local/Temp/jetty-docbase.1645495707121376636.8080/],UNAVAILABLE}]
+[INFO ] 10-13 15:35:43,812 StartupInfoLogger.java,50 [Starting ExampleprojectApplication on liyakun00 with PID 9172 (D:\tmp\exampleproject\exampleproject\target\classes started by liyakun in D:\tmp\exampleproject\exampleproject)]
+[INFO ] 10-13 15:35:43,812 SpringApplication.java,652 [No active profile set, falling back to default profiles: default]
+[INFO ] 10-13 15:35:43,818 AbstractApplicationContext.java,589 [Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@7b07afaa: startup date [Sat Oct 13 15:35:43 CST 2018]; root of context hierarchy]
+[INFO ] 10-13 15:35:44,429 DefaultListableBeanFactory.java,824 [Overriding bean definition for bean 'dataSource' with a different definition: replacing [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Generic; factoryMethodName=dataSource; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Generic.class]] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Hikari; factoryMethodName=dataSource; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]]]
+[INFO ] 10-13 15:35:44,635 PostProcessorRegistrationDelegate.java,328 [Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$49c37882] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)]
+[INFO ] 10-13 15:35:44,643 PostProcessorRegistrationDelegate.java,328 [Bean 'org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration' of type [org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration$$EnhancerBySpringCGLIB$$e27140bc] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)]
+[INFO ] 10-13 15:35:44,647 PostProcessorRegistrationDelegate.java,328 [Bean 'objectPostProcessor' of type [org.springframework.security.config.annotation.configuration.AutowireBeanFactoryObjectPostProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)]
+[INFO ] 10-13 15:35:44,648 PostProcessorRegistrationDelegate.java,328 [Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@6b8353dc' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)]
+[INFO ] 10-13 15:35:44,650 PostProcessorRegistrationDelegate.java,328 [Bean 'org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration' of type [org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration$$EnhancerBySpringCGLIB$$745e36e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)]
+[INFO ] 10-13 15:35:44,654 PostProcessorRegistrationDelegate.java,328 [Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)]
+[INFO ] 10-13 15:35:44,855 JettyServletWebServerFactory.java,146 [Server initialized with port: 8080]
+[INFO ] 10-13 15:35:44,856 Server.java,373 [jetty-9.4.8.v20171121, build timestamp: 2017-11-22T05:27:37+08:00, git hash: 82b8fb23f757335bb3329d540ce37a2a2615f0a8]
+[INFO ] 10-13 15:35:44,866 DefaultSessionIdManager.java,364 [DefaultSessionIdManager workerName=node0]
+[INFO ] 10-13 15:35:44,867 DefaultSessionIdManager.java,369 [No SessionScavenger set, using defaults]
+[INFO ] 10-13 15:35:44,867 HouseKeeper.java,149 [Scavenging every 600000ms]
+[INFO ] 10-13 15:35:44,871 ContextHandler.java,2221 [Initializing Spring embedded WebApplicationContext]
+[INFO ] 10-13 15:35:44,872 ServletWebServerApplicationContext.java,285 [Root WebApplicationContext: initialization completed in 1054 ms]
+[INFO ] 10-13 15:35:44,981 AbstractFilterRegistrationBean.java,243 [Mapping filter: 'characterEncodingFilter' to: [/*]]
+[INFO ] 10-13 15:35:44,982 AbstractFilterRegistrationBean.java,243 [Mapping filter: 'hiddenHttpMethodFilter' to: [/*]]
+[INFO ] 10-13 15:35:44,982 AbstractFilterRegistrationBean.java,243 [Mapping filter: 'httpPutFormContentFilter' to: [/*]]
+[INFO ] 10-13 15:35:44,982 AbstractFilterRegistrationBean.java,243 [Mapping filter: 'requestContextFilter' to: [/*]]
+[INFO ] 10-13 15:35:44,982 AbstractFilterRegistrationBean.java,243 [Mapping filter: 'springSecurityFilterChain' to: [/*]]
+[INFO ] 10-13 15:35:44,983 ServletRegistrationBean.java,185 [Servlet dispatcherServlet mapped to [/]]
+[INFO ] 10-13 15:35:44,984 ContextHandler.java,788 [Started o.s.b.w.e.j.JettyEmbeddedWebAppContext@7f44824e{/example,[file:///C:/Users/liyakun/AppData/Local/Temp/jetty-docbase.3485891640380711896.8080/],AVAILABLE}]
+[INFO ] 10-13 15:35:44,984 Server.java,410 [Started @93450ms]
+[INFO ] 10-13 15:35:45,047 HikariDataSource.java,110 [HikariPool-2 - Starting...]
+[INFO ] 10-13 15:35:45,115 PoolBase.java,516 [HikariPool-2 - Driver does not support get/set network timeout for connections. (oracle.jdbc.driver.T4CConnection.getNetworkTimeout()I)]
+[INFO ] 10-13 15:35:45,121 HikariDataSource.java,123 [HikariPool-2 - Start completed.]
+[INFO ] 10-13 15:35:45,134 LocalContainerEntityManagerFactoryBean.java,361 [Building JPA container EntityManagerFactory for persistence unit 'default']
+[INFO ] 10-13 15:35:45,135 LogHelper.java,31 [HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]]
+[INFO ] 10-13 15:35:45,156 Dialect.java,157 [HHH000400: Using dialect: org.hibernate.dialect.Oracle12cDialect]
+[INFO ] 10-13 15:35:45,228 BasicTypeRegistry.java,148 [HHH000270: Type registration [byte[]] overrides previous : org.hibernate.type.BinaryType@37b8d41b]
+[INFO ] 10-13 15:35:45,229 BasicTypeRegistry.java,148 [HHH000270: Type registration [[B] overrides previous : org.hibernate.type.BinaryType@37b8d41b]
+[INFO ] 10-13 15:35:45,229 BasicTypeRegistry.java,148 [HHH000270: Type registration [Byte[]] overrides previous : org.hibernate.type.WrapperBinaryType@6891492d]
+[INFO ] 10-13 15:35:45,229 BasicTypeRegistry.java,148 [HHH000270: Type registration [[Ljava.lang.Byte;] overrides previous : org.hibernate.type.WrapperBinaryType@6891492d]
+[INFO ] 10-13 15:35:51,264 AbstractEntityManagerFactoryBean.java,394 [Initialized JPA EntityManagerFactory for persistence unit 'default']
+[INFO ] 10-13 15:35:55,700 DefaultSecurityFilterChain.java,43 [Creating filter chain: org.springframework.security.web.util.matcher.AnyRequestMatcher@1, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@32597e93, org.springframework.security.web.context.SecurityContextPersistenceFilter@1a8528d, org.springframework.security.web.header.HeaderWriterFilter@e671983, org.springframework.security.web.authentication.logout.LogoutFilter@6c9eaac2, com.inspur.exampleproject.jwt.JWTLoginFilter@3c505580, com.inspur.exampleproject.jwt.JWTLoginFilter@1fd2afab, com.inspur.exampleproject.jwt.JWTAuthenticationFilter@1f3fb435, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@445c1ed5, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@7241acdc, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@666beca7, org.springframework.security.web.session.SessionManagementFilter@53c9b11f, org.springframework.security.web.access.ExceptionTranslationFilter@2added80, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@f81ed81]]
+[INFO ] 10-13 15:35:55,884 RequestMappingHandlerAdapter.java,567 [Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@7b07afaa: startup date [Sat Oct 13 15:35:43 CST 2018]; root of context hierarchy]
+[WARN ] 10-13 15:35:55,917 JpaBaseConfiguration.java,235 [spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning]
+[INFO ] 10-13 15:35:55,925 AbstractHandlerMethodMapping.java,548 [Mapped "{[/login],methods=[POST]}" onto public org.springframework.http.ResponseEntity<java.lang.Void> com.inspur.exampleproject.web.controller.TestController.login(com.inspur.exampleproject.web.resq.UserInfo)]
+[INFO ] 10-13 15:35:55,927 AbstractHandlerMethodMapping.java,548 [Mapped "{[/getAllmap],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.util.List> com.inspur.exampleproject.web.controller.TestController.getAlldataMap()]
+[INFO ] 10-13 15:35:55,927 AbstractHandlerMethodMapping.java,548 [Mapped "{[/getAlldata],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.util.List<com.inspur.exampleproject.entity.DemoTest>> com.inspur.exampleproject.web.controller.TestController.getAlldata()]
+[INFO ] 10-13 15:35:55,928 AbstractHandlerMethodMapping.java,548 [Mapped "{[/view/{url}]}" onto public java.lang.String com.inspur.exampleproject.web.HomeController.mainPage(java.lang.String)]
+[INFO ] 10-13 15:35:55,932 AbstractHandlerMethodMapping.java,548 [Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)]
+[INFO ] 10-13 15:35:55,933 AbstractHandlerMethodMapping.java,548 [Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)]
+[INFO ] 10-13 15:35:56,004 AbstractUrlHandlerMapping.java,373 [Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]]
+[INFO ] 10-13 15:35:56,005 AbstractUrlHandlerMapping.java,373 [Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]]
+[INFO ] 10-13 15:35:56,056 AbstractUrlHandlerMapping.java,373 [Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]]
+[WARN ] 10-13 15:35:56,240 OptionalLiveReloadServer.java,61 [Unable to start LiveReload server]
+[INFO ] 10-13 15:35:56,490 MBeanExporter.java,434 [Registering beans for JMX exposure on startup]
+[INFO ] 10-13 15:35:56,491 MBeanExporter.java,896 [Bean with name 'dataSource' has been autodetected for JMX exposure]
+[INFO ] 10-13 15:35:56,498 MBeanExporter.java,669 [Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]]
+[INFO ] 10-13 15:35:56,505 ContextHandler.java,2221 [Initializing Spring FrameworkServlet 'dispatcherServlet']
+[INFO ] 10-13 15:35:56,506 FrameworkServlet.java,494 [FrameworkServlet 'dispatcherServlet': initialization started]
+[INFO ] 10-13 15:35:56,514 FrameworkServlet.java,513 [FrameworkServlet 'dispatcherServlet': initialization completed in 8 ms]
+[INFO ] 10-13 15:35:56,518 AbstractConnector.java,288 [Started ServerConnector@33f369bb{HTTP/1.1,[http/1.1]}{0.0.0.0:8080}]
+[INFO ] 10-13 15:35:56,518 JettyWebServer.java,158 [Jetty started on port(s) 8080 (http/1.1) with context path '/example']
+[INFO ] 10-13 15:35:56,519 StartupInfoLogger.java,59 [Started ExampleprojectApplication in 12.775 seconds (JVM running for 104.985)]
+[INFO ] 10-13 15:35:56,524 ConditionEvaluationDeltaLoggingListener.java,56 [Condition evaluation unchanged]
+[INFO ] 10-13 15:36:09,932 AbstractApplicationContext.java,989 [Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@7b07afaa: startup date [Sat Oct 13 15:35:43 CST 2018]; root of context hierarchy]
+[INFO ] 10-13 15:36:09,935 MBeanExporter.java,452 [Unregistering JMX-exposed beans on shutdown]
+[INFO ] 10-13 15:36:09,936 MBeanRegistrationSupport.java,183 [Unregistering JMX-exposed beans]
+[INFO ] 10-13 15:36:09,939 AbstractEntityManagerFactoryBean.java,572 [Closing JPA EntityManagerFactory for persistence unit 'default']
+[INFO ] 10-13 15:36:09,940 HikariDataSource.java,381 [HikariPool-2 - Shutdown initiated...]
+[INFO ] 10-13 15:36:10,363 HikariDataSource.java,383 [HikariPool-2 - Shutdown completed.]
+[INFO ] 10-13 15:36:10,380 AbstractConnector.java,331 [Stopped ServerConnector@33f369bb{HTTP/1.1,[http/1.1]}{0.0.0.0:8080}]
+[INFO ] 10-13 15:36:10,382 HouseKeeper.java,167 [Stopped scavenging]
+[INFO ] 10-13 15:36:10,384 ContextHandler.java,2221 [Destroying Spring FrameworkServlet 'dispatcherServlet']
+[INFO ] 10-13 15:36:10,386 ContextHandler.java,957 [Stopped o.s.b.w.e.j.JettyEmbeddedWebAppContext@7f44824e{/example,[file:///C:/Users/liyakun/AppData/Local/Temp/jetty-docbase.3485891640380711896.8080/],UNAVAILABLE}]
+[INFO ] 10-13 15:36:10,656 StartupInfoLogger.java,50 [Starting ExampleprojectApplication on liyakun00 with PID 9172 (D:\tmp\exampleproject\exampleproject\target\classes started by liyakun in D:\tmp\exampleproject\exampleproject)]
+[INFO ] 10-13 15:36:10,657 SpringApplication.java,652 [No active profile set, falling back to default profiles: default]
+[INFO ] 10-13 15:36:10,662 AbstractApplicationContext.java,589 [Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@2a0a1c97: startup date [Sat Oct 13 15:36:10 CST 2018]; root of context hierarchy]
+[INFO ] 10-13 15:36:11,239 DefaultListableBeanFactory.java,824 [Overriding bean definition for bean 'dataSource' with a different definition: replacing [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Generic; factoryMethodName=dataSource; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Generic.class]] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Hikari; factoryMethodName=dataSource; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]]]
+[INFO ] 10-13 15:36:11,412 PostProcessorRegistrationDelegate.java,328 [Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$49c37882] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)]
+[INFO ] 10-13 15:36:11,420 PostProcessorRegistrationDelegate.java,328 [Bean 'org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration' of type [org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration$$EnhancerBySpringCGLIB$$e27140bc] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)]
+[INFO ] 10-13 15:36:11,423 PostProcessorRegistrationDelegate.java,328 [Bean 'objectPostProcessor' of type [org.springframework.security.config.annotation.configuration.AutowireBeanFactoryObjectPostProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)]
+[INFO ] 10-13 15:36:11,424 PostProcessorRegistrationDelegate.java,328 [Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@63921607' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)]
+[INFO ] 10-13 15:36:11,425 PostProcessorRegistrationDelegate.java,328 [Bean 'org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration' of type [org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration$$EnhancerBySpringCGLIB$$745e36e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)]
+[INFO ] 10-13 15:36:11,427 PostProcessorRegistrationDelegate.java,328 [Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)]
+[INFO ] 10-13 15:36:11,569 JettyServletWebServerFactory.java,146 [Server initialized with port: 8080]
+[INFO ] 10-13 15:36:11,569 Server.java,373 [jetty-9.4.8.v20171121, build timestamp: 2017-11-22T05:27:37+08:00, git hash: 82b8fb23f757335bb3329d540ce37a2a2615f0a8]
+[INFO ] 10-13 15:36:11,575 DefaultSessionIdManager.java,364 [DefaultSessionIdManager workerName=node0]
+[INFO ] 10-13 15:36:11,575 DefaultSessionIdManager.java,369 [No SessionScavenger set, using defaults]
+[INFO ] 10-13 15:36:11,576 HouseKeeper.java,149 [Scavenging every 660000ms]
+[INFO ] 10-13 15:36:11,577 ContextHandler.java,2221 [Initializing Spring embedded WebApplicationContext]
+[INFO ] 10-13 15:36:11,577 ServletWebServerApplicationContext.java,285 [Root WebApplicationContext: initialization completed in 915 ms]
+[INFO ] 10-13 15:36:11,679 AbstractFilterRegistrationBean.java,243 [Mapping filter: 'characterEncodingFilter' to: [/*]]
+[INFO ] 10-13 15:36:11,680 AbstractFilterRegistrationBean.java,243 [Mapping filter: 'hiddenHttpMethodFilter' to: [/*]]
+[INFO ] 10-13 15:36:11,680 AbstractFilterRegistrationBean.java,243 [Mapping filter: 'httpPutFormContentFilter' to: [/*]]
+[INFO ] 10-13 15:36:11,680 AbstractFilterRegistrationBean.java,243 [Mapping filter: 'requestContextFilter' to: [/*]]
+[INFO ] 10-13 15:36:11,681 AbstractFilterRegistrationBean.java,243 [Mapping filter: 'springSecurityFilterChain' to: [/*]]
+[INFO ] 10-13 15:36:11,681 ServletRegistrationBean.java,185 [Servlet dispatcherServlet mapped to [/]]
+[INFO ] 10-13 15:36:11,681 ContextHandler.java,788 [Started o.s.b.w.e.j.JettyEmbeddedWebAppContext@38b8de6e{/example,[file:///C:/Users/liyakun/AppData/Local/Temp/jetty-docbase.3061920724985999004.8080/],AVAILABLE}]
+[INFO ] 10-13 15:36:11,682 Server.java,410 [Started @120148ms]
+[INFO ] 10-13 15:36:11,742 HikariDataSource.java,110 [HikariPool-3 - Starting...]
+[INFO ] 10-13 15:36:11,790 PoolBase.java,516 [HikariPool-3 - Driver does not support get/set network timeout for connections. (oracle.jdbc.driver.T4CConnection.getNetworkTimeout()I)]
+[INFO ] 10-13 15:36:11,793 HikariDataSource.java,123 [HikariPool-3 - Start completed.]
+[INFO ] 10-13 15:36:11,807 LocalContainerEntityManagerFactoryBean.java,361 [Building JPA container EntityManagerFactory for persistence unit 'default']
+[INFO ] 10-13 15:36:11,807 LogHelper.java,31 [HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]]
+[INFO ] 10-13 15:36:11,823 Dialect.java,157 [HHH000400: Using dialect: org.hibernate.dialect.Oracle12cDialect]
+[INFO ] 10-13 15:36:11,856 BasicTypeRegistry.java,148 [HHH000270: Type registration [byte[]] overrides previous : org.hibernate.type.BinaryType@37b8d41b]
+[INFO ] 10-13 15:36:11,857 BasicTypeRegistry.java,148 [HHH000270: Type registration [[B] overrides previous : org.hibernate.type.BinaryType@37b8d41b]
+[INFO ] 10-13 15:36:11,857 BasicTypeRegistry.java,148 [HHH000270: Type registration [Byte[]] overrides previous : org.hibernate.type.WrapperBinaryType@6891492d]
+[INFO ] 10-13 15:36:11,857 BasicTypeRegistry.java,148 [HHH000270: Type registration [[Ljava.lang.Byte;] overrides previous : org.hibernate.type.WrapperBinaryType@6891492d]
+[INFO ] 10-13 15:36:22,826 Version.java,21 [HV000001: Hibernate Validator 6.0.7.Final]
+[INFO ] 10-13 15:36:22,994 StartupInfoLogger.java,50 [Starting ExampleprojectApplication on liyakun00 with PID 29060 (D:\tmp\exampleproject\exampleproject\target\classes started by liyakun in D:\tmp\exampleproject\exampleproject)]
+[INFO ] 10-13 15:36:22,995 SpringApplication.java,652 [No active profile set, falling back to default profiles: default]
+[INFO ] 10-13 15:36:23,060 AbstractApplicationContext.java,589 [Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@540eb16f: startup date [Sat Oct 13 15:36:23 CST 2018]; root of context hierarchy]
+[INFO ] 10-13 15:36:24,226 DefaultListableBeanFactory.java,824 [Overriding bean definition for bean 'dataSource' with a different definition: replacing [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Generic; factoryMethodName=dataSource; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Generic.class]] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Hikari; factoryMethodName=dataSource; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]]]
+[INFO ] 10-13 15:36:24,929 PostProcessorRegistrationDelegate.java,328 [Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$1ad3466a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)]
+[INFO ] 10-13 15:36:24,995 PostProcessorRegistrationDelegate.java,328 [Bean 'org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration' of type [org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration$$EnhancerBySpringCGLIB$$b3810ea4] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)]
+[INFO ] 10-13 15:36:25,008 PostProcessorRegistrationDelegate.java,328 [Bean 'objectPostProcessor' of type [org.springframework.security.config.annotation.configuration.AutowireBeanFactoryObjectPostProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)]
+[INFO ] 10-13 15:36:25,011 PostProcessorRegistrationDelegate.java,328 [Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@77af3e30' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)]
+[INFO ] 10-13 15:36:25,024 PostProcessorRegistrationDelegate.java,328 [Bean 'org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration' of type [org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration$$EnhancerBySpringCGLIB$$d855b156] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)]
+[INFO ] 10-13 15:36:25,044 PostProcessorRegistrationDelegate.java,328 [Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)]
+[INFO ] 10-13 15:36:25,310 Log.java,192 [Logging initialized @3978ms to org.eclipse.jetty.util.log.Slf4jLog]
+[INFO ] 10-13 15:36:25,435 JettyServletWebServerFactory.java,146 [Server initialized with port: 8080]
+[INFO ] 10-13 15:36:25,440 Server.java,373 [jetty-9.4.8.v20171121, build timestamp: 2017-11-22T05:27:37+08:00, git hash: 82b8fb23f757335bb3329d540ce37a2a2615f0a8]
+[INFO ] 10-13 15:36:25,585 DefaultSessionIdManager.java,364 [DefaultSessionIdManager workerName=node0]
+[INFO ] 10-13 15:36:25,586 DefaultSessionIdManager.java,369 [No SessionScavenger set, using defaults]
+[INFO ] 10-13 15:36:25,588 HouseKeeper.java,149 [Scavenging every 600000ms]
+[INFO ] 10-13 15:36:25,598 ContextHandler.java,2221 [Initializing Spring embedded WebApplicationContext]
+[INFO ] 10-13 15:36:25,599 ServletWebServerApplicationContext.java,285 [Root WebApplicationContext: initialization completed in 2542 ms]
+[INFO ] 10-13 15:36:25,836 AbstractFilterRegistrationBean.java,243 [Mapping filter: 'characterEncodingFilter' to: [/*]]
+[INFO ] 10-13 15:36:25,837 AbstractFilterRegistrationBean.java,243 [Mapping filter: 'hiddenHttpMethodFilter' to: [/*]]
+[INFO ] 10-13 15:36:25,838 AbstractFilterRegistrationBean.java,243 [Mapping filter: 'httpPutFormContentFilter' to: [/*]]
+[INFO ] 10-13 15:36:25,838 AbstractFilterRegistrationBean.java,243 [Mapping filter: 'requestContextFilter' to: [/*]]
+[INFO ] 10-13 15:36:25,839 AbstractFilterRegistrationBean.java,243 [Mapping filter: 'springSecurityFilterChain' to: [/*]]
+[INFO ] 10-13 15:36:25,840 ServletRegistrationBean.java,185 [Servlet dispatcherServlet mapped to [/]]
+[INFO ] 10-13 15:36:25,845 ContextHandler.java,788 [Started o.s.b.w.e.j.JettyEmbeddedWebAppContext@13d19510{/example,[file:///C:/Users/liyakun/AppData/Local/Temp/jetty-docbase.730962821340199764.8080/],AVAILABLE}]
+[INFO ] 10-13 15:36:25,846 Server.java,410 [Started @4515ms]
+[INFO ] 10-13 15:36:26,047 HikariDataSource.java,110 [HikariPool-1 - Starting...]
+[INFO ] 10-13 15:36:26,193 PoolBase.java,516 [HikariPool-1 - Driver does not support get/set network timeout for connections. (oracle.jdbc.driver.T4CConnection.getNetworkTimeout()I)]
+[INFO ] 10-13 15:36:26,200 HikariDataSource.java,123 [HikariPool-1 - Start completed.]
+[INFO ] 10-13 15:36:26,267 LocalContainerEntityManagerFactoryBean.java,361 [Building JPA container EntityManagerFactory for persistence unit 'default']
+[INFO ] 10-13 15:36:26,288 LogHelper.java,31 [HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]]
+[INFO ] 10-13 15:36:26,409 Version.java,45 [HHH000412: Hibernate Core {5.2.14.Final}]
+[INFO ] 10-13 15:36:26,411 Environment.java,213 [HHH000206: hibernate.properties not found]
+[INFO ] 10-13 15:36:26,470 JavaReflectionManager.java,66 [HCANN000001: Hibernate Commons Annotations {5.0.1.Final}]
+[INFO ] 10-13 15:36:26,757 Dialect.java,157 [HHH000400: Using dialect: org.hibernate.dialect.Oracle12cDialect]
+[INFO ] 10-13 15:36:26,900 BasicTypeRegistry.java,148 [HHH000270: Type registration [byte[]] overrides previous : org.hibernate.type.BinaryType@1375747b]
+[INFO ] 10-13 15:36:26,901 BasicTypeRegistry.java,148 [HHH000270: Type registration [[B] overrides previous : org.hibernate.type.BinaryType@1375747b]
+[INFO ] 10-13 15:36:26,902 BasicTypeRegistry.java,148 [HHH000270: Type registration [Byte[]] overrides previous : org.hibernate.type.WrapperBinaryType@48fe3b34]
+[INFO ] 10-13 15:36:26,902 BasicTypeRegistry.java,148 [HHH000270: Type registration [[Ljava.lang.Byte;] overrides previous : org.hibernate.type.WrapperBinaryType@48fe3b34]
+[INFO ] 10-13 15:36:34,337 AbstractEntityManagerFactoryBean.java,394 [Initialized JPA EntityManagerFactory for persistence unit 'default']
+[INFO ] 10-13 15:36:41,379 DefaultSecurityFilterChain.java,43 [Creating filter chain: org.springframework.security.web.util.matcher.AnyRequestMatcher@1, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@764b462b, org.springframework.security.web.context.SecurityContextPersistenceFilter@254cf821, org.springframework.security.web.header.HeaderWriterFilter@31e45ab3, org.springframework.security.web.authentication.logout.LogoutFilter@5d80af5c, com.inspur.exampleproject.jwt.JWTLoginFilter@3064e4a4, com.inspur.exampleproject.jwt.JWTLoginFilter@4807e6db, com.inspur.exampleproject.jwt.JWTAuthenticationFilter@7a742db2, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@1625cb50, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@2799d5d5, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@56a256c9, org.springframework.security.web.session.SessionManagementFilter@495beed0, org.springframework.security.web.access.ExceptionTranslationFilter@bc0cf54, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@4cbb6936]]
+[INFO ] 10-13 15:36:41,848 RequestMappingHandlerAdapter.java,567 [Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@540eb16f: startup date [Sat Oct 13 15:36:23 CST 2018]; root of context hierarchy]
+[WARN ] 10-13 15:36:41,911 JpaBaseConfiguration.java,235 [spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning]
+[INFO ] 10-13 15:36:41,962 AbstractHandlerMethodMapping.java,548 [Mapped "{[/getAllmap],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.util.List> com.inspur.exampleproject.web.controller.TestController.getAlldataMap()]
+[INFO ] 10-13 15:36:41,965 AbstractHandlerMethodMapping.java,548 [Mapped "{[/login],methods=[POST]}" onto public org.springframework.http.ResponseEntity<java.lang.Void> com.inspur.exampleproject.web.controller.TestController.login(com.inspur.exampleproject.web.resq.UserInfo)]
+[INFO ] 10-13 15:36:41,966 AbstractHandlerMethodMapping.java,548 [Mapped "{[/getAlldata],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.util.List<com.inspur.exampleproject.entity.DemoTest>> com.inspur.exampleproject.web.controller.TestController.getAlldata()]
+[INFO ] 10-13 15:36:41,968 AbstractHandlerMethodMapping.java,548 [Mapped "{[/view/{url}]}" onto public java.lang.String com.inspur.exampleproject.web.HomeController.mainPage(java.lang.String)]
+[INFO ] 10-13 15:36:41,973 AbstractHandlerMethodMapping.java,548 [Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)]
+[INFO ] 10-13 15:36:41,974 AbstractHandlerMethodMapping.java,548 [Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)]
+[INFO ] 10-13 15:36:42,084 AbstractUrlHandlerMapping.java,373 [Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]]
+[INFO ] 10-13 15:36:42,085 AbstractUrlHandlerMapping.java,373 [Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]]
+[INFO ] 10-13 15:36:42,175 AbstractUrlHandlerMapping.java,373 [Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]]
+[WARN ] 10-13 15:36:42,636 OptionalLiveReloadServer.java,61 [Unable to start LiveReload server]
+[INFO ] 10-13 15:36:42,901 MBeanExporter.java,434 [Registering beans for JMX exposure on startup]
+[INFO ] 10-13 15:36:42,903 MBeanExporter.java,896 [Bean with name 'dataSource' has been autodetected for JMX exposure]
+[INFO ] 10-13 15:36:42,910 MBeanExporter.java,669 [Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]]
+[INFO ] 10-13 15:36:42,930 ContextHandler.java,2221 [Initializing Spring FrameworkServlet 'dispatcherServlet']
+[INFO ] 10-13 15:36:42,930 FrameworkServlet.java,494 [FrameworkServlet 'dispatcherServlet': initialization started]
+[INFO ] 10-13 15:36:42,989 FrameworkServlet.java,513 [FrameworkServlet 'dispatcherServlet': initialization completed in 59 ms]
+[INFO ] 10-13 15:36:43,038 AbstractConnector.java,288 [Started ServerConnector@7904e7d0{HTTP/1.1,[http/1.1]}{0.0.0.0:8080}]
+[INFO ] 10-13 15:36:43,043 JettyWebServer.java,158 [Jetty started on port(s) 8080 (http/1.1) with context path '/example']
+[INFO ] 10-13 15:36:43,047 StartupInfoLogger.java,59 [Started ExampleprojectApplication in 20.369 seconds (JVM running for 21.716)]
+[INFO ] 10-13 15:37:03,923 QueryTranslatorFactoryInitiator.java,47 [HHH000397: Using ASTQueryTranslatorFactory]
+[INFO ] 10-13 15:51:32,678 SpringApplicationAdminMXBeanRegistrar.java,132 [Application shutdown requested.]
+[INFO ] 10-13 15:51:32,679 AbstractApplicationContext.java,989 [Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@540eb16f: startup date [Sat Oct 13 15:36:23 CST 2018]; root of context hierarchy]
+[INFO ] 10-13 15:51:32,685 MBeanExporter.java,452 [Unregistering JMX-exposed beans on shutdown]
+[INFO ] 10-13 15:51:32,687 MBeanRegistrationSupport.java,183 [Unregistering JMX-exposed beans]
+[INFO ] 10-13 15:51:32,689 AbstractEntityManagerFactoryBean.java,572 [Closing JPA EntityManagerFactory for persistence unit 'default']
+[INFO ] 10-13 15:51:32,691 HikariDataSource.java,381 [HikariPool-1 - Shutdown initiated...]
+[INFO ] 10-13 15:51:33,027 HikariDataSource.java,383 [HikariPool-1 - Shutdown completed.]
+[INFO ] 10-13 15:51:33,033 AbstractConnector.java,331 [Stopped ServerConnector@7904e7d0{HTTP/1.1,[http/1.1]}{0.0.0.0:8080}]
+[INFO ] 10-13 15:51:33,033 HouseKeeper.java,167 [Stopped scavenging]
+[INFO ] 10-13 15:51:33,036 ContextHandler.java,2221 [Destroying Spring FrameworkServlet 'dispatcherServlet']
+[INFO ] 10-13 15:51:33,037 ContextHandler.java,957 [Stopped o.s.b.w.e.j.JettyEmbeddedWebAppContext@13d19510{/example,[file:///C:/Users/liyakun/AppData/Local/Temp/jetty-docbase.730962821340199764.8080/],UNAVAILABLE}]
+[INFO ] 10-13 16:24:29,009 Version.java,21 [HV000001: Hibernate Validator 6.0.7.Final]
+[INFO ] 10-13 16:24:29,210 StartupInfoLogger.java,50 [Starting ExampleprojectApplication on liyakun00 with PID 8200 (D:\tmp\exampleproject\exampleproject\target\classes started by liyakun in D:\tmp\exampleproject\exampleproject)]
+[INFO ] 10-13 16:24:29,212 SpringApplication.java,652 [No active profile set, falling back to default profiles: default]
+[INFO ] 10-13 16:24:29,298 AbstractApplicationContext.java,589 [Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@15e71179: startup date [Sat Oct 13 16:24:29 CST 2018]; root of context hierarchy]
+[INFO ] 10-13 16:24:30,889 DefaultListableBeanFactory.java,824 [Overriding bean definition for bean 'dataSource' with a different definition: replacing [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Generic; factoryMethodName=dataSource; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Generic.class]] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Hikari; factoryMethodName=dataSource; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]]]
+[INFO ] 10-13 16:24:31,775 PostProcessorRegistrationDelegate.java,328 [Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$8a3c7ec6] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)]
+[INFO ] 10-13 16:24:31,842 PostProcessorRegistrationDelegate.java,328 [Bean 'org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration' of type [org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration$$EnhancerBySpringCGLIB$$22ea4700] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)]
+[INFO ] 10-13 16:24:31,855 PostProcessorRegistrationDelegate.java,328 [Bean 'objectPostProcessor' of type [org.springframework.security.config.annotation.configuration.AutowireBeanFactoryObjectPostProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)]
+[INFO ] 10-13 16:24:31,858 PostProcessorRegistrationDelegate.java,328 [Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@7b20f424' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)]
+[INFO ] 10-13 16:24:31,867 PostProcessorRegistrationDelegate.java,328 [Bean 'org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration' of type [org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration$$EnhancerBySpringCGLIB$$47bee9b2] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)]
+[INFO ] 10-13 16:24:31,881 PostProcessorRegistrationDelegate.java,328 [Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)]
+[INFO ] 10-13 16:24:32,170 Log.java,192 [Logging initialized @6088ms to org.eclipse.jetty.util.log.Slf4jLog]
+[INFO ] 10-13 16:24:32,304 JettyServletWebServerFactory.java,146 [Server initialized with port: 8080]
+[INFO ] 10-13 16:24:32,306 Server.java,373 [jetty-9.4.8.v20171121, build timestamp: 2017-11-22T05:27:37+08:00, git hash: 82b8fb23f757335bb3329d540ce37a2a2615f0a8]
+[INFO ] 10-13 16:24:32,437 DefaultSessionIdManager.java,364 [DefaultSessionIdManager workerName=node0]
+[INFO ] 10-13 16:24:32,437 DefaultSessionIdManager.java,369 [No SessionScavenger set, using defaults]
+[INFO ] 10-13 16:24:32,440 HouseKeeper.java,149 [Scavenging every 600000ms]
+[INFO ] 10-13 16:24:32,452 ContextHandler.java,2221 [Initializing Spring embedded WebApplicationContext]
+[INFO ] 10-13 16:24:32,452 ServletWebServerApplicationContext.java,285 [Root WebApplicationContext: initialization completed in 3158 ms]
+[INFO ] 10-13 16:24:32,690 AbstractFilterRegistrationBean.java,243 [Mapping filter: 'characterEncodingFilter' to: [/*]]
+[INFO ] 10-13 16:24:32,691 AbstractFilterRegistrationBean.java,243 [Mapping filter: 'hiddenHttpMethodFilter' to: [/*]]
+[INFO ] 10-13 16:24:32,691 AbstractFilterRegistrationBean.java,243 [Mapping filter: 'httpPutFormContentFilter' to: [/*]]
+[INFO ] 10-13 16:24:32,691 AbstractFilterRegistrationBean.java,243 [Mapping filter: 'requestContextFilter' to: [/*]]
+[INFO ] 10-13 16:24:32,692 AbstractFilterRegistrationBean.java,243 [Mapping filter: 'springSecurityFilterChain' to: [/*]]
+[INFO ] 10-13 16:24:32,693 ServletRegistrationBean.java,185 [Servlet dispatcherServlet mapped to [/]]
+[INFO ] 10-13 16:24:32,699 ContextHandler.java,788 [Started o.s.b.w.e.j.JettyEmbeddedWebAppContext@40676836{/example,[file:///C:/Users/liyakun/AppData/Local/Temp/jetty-docbase.197494793337958906.8080/],AVAILABLE}]
+[INFO ] 10-13 16:24:32,700 Server.java,410 [Started @6618ms]
+[INFO ] 10-13 16:24:32,917 HikariDataSource.java,110 [HikariPool-1 - Starting...]
+[INFO ] 10-13 16:24:33,216 PoolBase.java,516 [HikariPool-1 - Driver does not support get/set network timeout for connections. (oracle.jdbc.driver.T4CConnection.getNetworkTimeout()I)]
+[INFO ] 10-13 16:24:33,226 HikariDataSource.java,123 [HikariPool-1 - Start completed.]
+[INFO ] 10-13 16:24:33,291 LocalContainerEntityManagerFactoryBean.java,361 [Building JPA container EntityManagerFactory for persistence unit 'default']
+[INFO ] 10-13 16:24:33,306 LogHelper.java,31 [HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]]
+[INFO ] 10-13 16:24:33,426 Version.java,45 [HHH000412: Hibernate Core {5.2.14.Final}]
+[INFO ] 10-13 16:24:33,430 Environment.java,213 [HHH000206: hibernate.properties not found]
+[INFO ] 10-13 16:24:33,483 JavaReflectionManager.java,66 [HCANN000001: Hibernate Commons Annotations {5.0.1.Final}]
+[INFO ] 10-13 16:24:33,747 Dialect.java,157 [HHH000400: Using dialect: org.hibernate.dialect.Oracle12cDialect]
+[INFO ] 10-13 16:24:33,942 BasicTypeRegistry.java,148 [HHH000270: Type registration [byte[]] overrides previous : org.hibernate.type.BinaryType@2e720a5e]
+[INFO ] 10-13 16:24:33,943 BasicTypeRegistry.java,148 [HHH000270: Type registration [[B] overrides previous : org.hibernate.type.BinaryType@2e720a5e]
+[INFO ] 10-13 16:24:33,944 BasicTypeRegistry.java,148 [HHH000270: Type registration [Byte[]] overrides previous : org.hibernate.type.WrapperBinaryType@33da05ad]
+[INFO ] 10-13 16:24:33,945 BasicTypeRegistry.java,148 [HHH000270: Type registration [[Ljava.lang.Byte;] overrides previous : org.hibernate.type.WrapperBinaryType@33da05ad]
+[INFO ] 10-13 16:24:41,249 AbstractEntityManagerFactoryBean.java,394 [Initialized JPA EntityManagerFactory for persistence unit 'default']
+[INFO ] 10-13 16:24:53,902 DefaultSecurityFilterChain.java,43 [Creating filter chain: org.springframework.security.web.util.matcher.AnyRequestMatcher@1, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@2fd511cc, org.springframework.security.web.context.SecurityContextPersistenceFilter@55720f64, org.springframework.security.web.header.HeaderWriterFilter@24744415, org.springframework.security.web.authentication.logout.LogoutFilter@5261bcc7, com.inspur.exampleproject.jwt.JWTLoginFilter@23c8c61b, com.inspur.exampleproject.jwt.JWTLoginFilter@7afa5bad, com.inspur.exampleproject.jwt.JWTAuthenticationFilter@3c7948c6, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@4855393b, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@59285f36, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@3ba565f4, org.springframework.security.web.session.SessionManagementFilter@631074a7, org.springframework.security.web.access.ExceptionTranslationFilter@7a99f13d, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@73d06280]]
+[INFO ] 10-13 16:24:54,382 RequestMappingHandlerAdapter.java,567 [Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@15e71179: startup date [Sat Oct 13 16:24:29 CST 2018]; root of context hierarchy]
+[WARN ] 10-13 16:24:54,445 JpaBaseConfiguration.java,235 [spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning]
+[INFO ] 10-13 16:24:54,502 AbstractHandlerMethodMapping.java,548 [Mapped "{[/login],methods=[POST]}" onto public org.springframework.http.ResponseEntity<java.lang.Void> com.inspur.exampleproject.web.controller.TestController.login(com.inspur.exampleproject.web.resq.UserInfo)]
+[INFO ] 10-13 16:24:54,503 AbstractHandlerMethodMapping.java,548 [Mapped "{[/getAlldata],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.util.List<com.inspur.exampleproject.entity.DemoTest>> com.inspur.exampleproject.web.controller.TestController.getAlldata()]
+[INFO ] 10-13 16:24:54,504 AbstractHandlerMethodMapping.java,548 [Mapped "{[/toLogin],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.inspur.exampleproject.web.controller.TestController.toLogin()]
+[INFO ] 10-13 16:24:54,504 AbstractHandlerMethodMapping.java,548 [Mapped "{[/getAllmap],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.util.List> com.inspur.exampleproject.web.controller.TestController.getAlldataMap()]
+[INFO ] 10-13 16:24:54,505 AbstractHandlerMethodMapping.java,548 [Mapped "{[/view/{url}]}" onto public java.lang.String com.inspur.exampleproject.web.HomeController.mainPage(java.lang.String)]
+[INFO ] 10-13 16:24:54,510 AbstractHandlerMethodMapping.java,548 [Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)]
+[INFO ] 10-13 16:24:54,511 AbstractHandlerMethodMapping.java,548 [Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)]
+[INFO ] 10-13 16:24:54,645 AbstractUrlHandlerMapping.java,373 [Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]]
+[INFO ] 10-13 16:24:54,646 AbstractUrlHandlerMapping.java,373 [Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]]
+[INFO ] 10-13 16:24:54,742 AbstractUrlHandlerMapping.java,373 [Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]]
+[INFO ] 10-13 16:24:55,201 OptionalLiveReloadServer.java,57 [LiveReload server is running on port 35729]
+[INFO ] 10-13 16:24:55,483 MBeanExporter.java,434 [Registering beans for JMX exposure on startup]
+[INFO ] 10-13 16:24:55,484 MBeanExporter.java,896 [Bean with name 'dataSource' has been autodetected for JMX exposure]
+[INFO ] 10-13 16:24:55,491 MBeanExporter.java,669 [Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]]
+[INFO ] 10-13 16:24:55,514 ContextHandler.java,2221 [Initializing Spring FrameworkServlet 'dispatcherServlet']
+[INFO ] 10-13 16:24:55,514 FrameworkServlet.java,494 [FrameworkServlet 'dispatcherServlet': initialization started]
+[INFO ] 10-13 16:24:55,539 FrameworkServlet.java,513 [FrameworkServlet 'dispatcherServlet': initialization completed in 23 ms]
+[INFO ] 10-13 16:24:55,567 AbstractConnector.java,288 [Started ServerConnector@291071e1{HTTP/1.1,[http/1.1]}{0.0.0.0:8080}]
+[INFO ] 10-13 16:24:55,572 JettyWebServer.java,158 [Jetty started on port(s) 8080 (http/1.1) with context path '/example']
+[INFO ] 10-13 16:24:55,575 StartupInfoLogger.java,59 [Started ExampleprojectApplication in 26.715 seconds (JVM running for 29.494)]
+[INFO ] 10-13 16:34:06,516 AbstractApplicationContext.java,989 [Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@15e71179: startup date [Sat Oct 13 16:24:29 CST 2018]; root of context hierarchy]
+[INFO ] 10-13 16:34:06,522 MBeanExporter.java,452 [Unregistering JMX-exposed beans on shutdown]
+[INFO ] 10-13 16:34:06,525 MBeanRegistrationSupport.java,183 [Unregistering JMX-exposed beans]
+[INFO ] 10-13 16:34:06,533 AbstractEntityManagerFactoryBean.java,572 [Closing JPA EntityManagerFactory for persistence unit 'default']
+[INFO ] 10-13 16:34:06,537 HikariDataSource.java,381 [HikariPool-1 - Shutdown initiated...]
+[INFO ] 10-13 16:34:06,904 HikariDataSource.java,383 [HikariPool-1 - Shutdown completed.]
+[INFO ] 10-13 16:34:06,915 AbstractConnector.java,331 [Stopped ServerConnector@291071e1{HTTP/1.1,[http/1.1]}{0.0.0.0:8080}]
+[INFO ] 10-13 16:34:06,915 HouseKeeper.java,167 [Stopped scavenging]
+[INFO ] 10-13 16:34:06,919 ContextHandler.java,2221 [Destroying Spring FrameworkServlet 'dispatcherServlet']
+[INFO ] 10-13 16:34:06,921 ContextHandler.java,957 [Stopped o.s.b.w.e.j.JettyEmbeddedWebAppContext@40676836{/example,[file:///C:/Users/liyakun/AppData/Local/Temp/jetty-docbase.197494793337958906.8080/],UNAVAILABLE}]
+[INFO ] 10-13 16:34:07,251 StartupInfoLogger.java,50 [Starting ExampleprojectApplication on liyakun00 with PID 8200 (D:\tmp\exampleproject\exampleproject\target\classes started by liyakun in D:\tmp\exampleproject\exampleproject)]
+[INFO ] 10-13 16:34:07,251 SpringApplication.java,652 [No active profile set, falling back to default profiles: default]
+[INFO ] 10-13 16:34:07,261 AbstractApplicationContext.java,589 [Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@1a9bb122: startup date [Sat Oct 13 16:34:07 CST 2018]; root of context hierarchy]
+[INFO ] 10-13 16:34:07,922 DefaultListableBeanFactory.java,824 [Overriding bean definition for bean 'dataSource' with a different definition: replacing [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Generic; factoryMethodName=dataSource; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Generic.class]] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Hikari; factoryMethodName=dataSource; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]]]
+[INFO ] 10-13 16:34:08,132 PostProcessorRegistrationDelegate.java,328 [Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$8a3c7ec6] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)]
+[INFO ] 10-13 16:34:08,141 PostProcessorRegistrationDelegate.java,328 [Bean 'org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration' of type [org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration$$EnhancerBySpringCGLIB$$22ea4700] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)]
+[INFO ] 10-13 16:34:08,144 PostProcessorRegistrationDelegate.java,328 [Bean 'objectPostProcessor' of type [org.springframework.security.config.annotation.configuration.AutowireBeanFactoryObjectPostProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)]
+[INFO ] 10-13 16:34:08,145 PostProcessorRegistrationDelegate.java,328 [Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@2fababe7' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)]
+[INFO ] 10-13 16:34:08,146 PostProcessorRegistrationDelegate.java,328 [Bean 'org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration' of type [org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration$$EnhancerBySpringCGLIB$$47bee9b2] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)]
+[INFO ] 10-13 16:34:08,149 PostProcessorRegistrationDelegate.java,328 [Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)]
+[INFO ] 10-13 16:34:08,312 JettyServletWebServerFactory.java,146 [Server initialized with port: 8080]
+[INFO ] 10-13 16:34:08,313 Server.java,373 [jetty-9.4.8.v20171121, build timestamp: 2017-11-22T05:27:37+08:00, git hash: 82b8fb23f757335bb3329d540ce37a2a2615f0a8]
+[INFO ] 10-13 16:34:08,319 DefaultSessionIdManager.java,364 [DefaultSessionIdManager workerName=node0]
+[INFO ] 10-13 16:34:08,320 DefaultSessionIdManager.java,369 [No SessionScavenger set, using defaults]
+[INFO ] 10-13 16:34:08,320 HouseKeeper.java,149 [Scavenging every 660000ms]
+[INFO ] 10-13 16:34:08,322 ContextHandler.java,2221 [Initializing Spring embedded WebApplicationContext]
+[INFO ] 10-13 16:34:08,323 ServletWebServerApplicationContext.java,285 [Root WebApplicationContext: initialization completed in 1062 ms]
+[INFO ] 10-13 16:34:08,435 AbstractFilterRegistrationBean.java,243 [Mapping filter: 'characterEncodingFilter' to: [/*]]
+[INFO ] 10-13 16:34:08,436 AbstractFilterRegistrationBean.java,243 [Mapping filter: 'hiddenHttpMethodFilter' to: [/*]]
+[INFO ] 10-13 16:34:08,437 AbstractFilterRegistrationBean.java,243 [Mapping filter: 'httpPutFormContentFilter' to: [/*]]
+[INFO ] 10-13 16:34:08,437 AbstractFilterRegistrationBean.java,243 [Mapping filter: 'requestContextFilter' to: [/*]]
+[INFO ] 10-13 16:34:08,437 AbstractFilterRegistrationBean.java,243 [Mapping filter: 'springSecurityFilterChain' to: [/*]]
+[INFO ] 10-13 16:34:08,438 ServletRegistrationBean.java,185 [Servlet dispatcherServlet mapped to [/]]
+[INFO ] 10-13 16:34:08,439 ContextHandler.java,788 [Started o.s.b.w.e.j.JettyEmbeddedWebAppContext@bc22b64{/example,[file:///C:/Users/liyakun/AppData/Local/Temp/jetty-docbase.4772350568557071942.8080/],AVAILABLE}]
+[INFO ] 10-13 16:34:08,439 Server.java,410 [Started @582358ms]
+[INFO ] 10-13 16:34:08,497 HikariDataSource.java,110 [HikariPool-2 - Starting...]
+[INFO ] 10-13 16:34:08,539 PoolBase.java,516 [HikariPool-2 - Driver does not support get/set network timeout for connections. (oracle.jdbc.driver.T4CConnection.getNetworkTimeout()I)]
+[INFO ] 10-13 16:34:08,543 HikariDataSource.java,123 [HikariPool-2 - Start completed.]
+[INFO ] 10-13 16:34:08,556 LocalContainerEntityManagerFactoryBean.java,361 [Building JPA container EntityManagerFactory for persistence unit 'default']
+[INFO ] 10-13 16:34:08,557 LogHelper.java,31 [HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]]
+[INFO ] 10-13 16:34:08,575 Dialect.java,157 [HHH000400: Using dialect: org.hibernate.dialect.Oracle12cDialect]
+[INFO ] 10-13 16:34:08,619 BasicTypeRegistry.java,148 [HHH000270: Type registration [byte[]] overrides previous : org.hibernate.type.BinaryType@2e720a5e]
+[INFO ] 10-13 16:34:08,620 BasicTypeRegistry.java,148 [HHH000270: Type registration [[B] overrides previous : org.hibernate.type.BinaryType@2e720a5e]
+[INFO ] 10-13 16:34:08,620 BasicTypeRegistry.java,148 [HHH000270: Type registration [Byte[]] overrides previous : org.hibernate.type.WrapperBinaryType@33da05ad]
+[INFO ] 10-13 16:34:08,620 BasicTypeRegistry.java,148 [HHH000270: Type registration [[Ljava.lang.Byte;] overrides previous : org.hibernate.type.WrapperBinaryType@33da05ad]
+[INFO ] 10-13 16:34:15,558 AbstractEntityManagerFactoryBean.java,394 [Initialized JPA EntityManagerFactory for persistence unit 'default']
+[WARN ] 10-13 16:37:43,269 AbstractApplicationContext.java,557 [Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'springSecurityFilterChain' defined in class path resource [org/springframework/security/config/annotation/web/configuration/WebSecurityConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [javax.servlet.Filter]: Factory method 'springSecurityFilterChain' threw exception; nested exception is java.lang.Error: Unresolved compilation problem: 
+	The method csrf() is undefined for the type FormLoginConfigurer<HttpSecurity>
+]
+[INFO ] 10-13 16:37:43,269 AbstractEntityManagerFactoryBean.java,572 [Closing JPA EntityManagerFactory for persistence unit 'default']
+[INFO ] 10-13 16:37:43,270 HikariDataSource.java,381 [HikariPool-2 - Shutdown initiated...]
+[INFO ] 10-13 16:37:43,689 HikariDataSource.java,383 [HikariPool-2 - Shutdown completed.]
+[INFO ] 10-13 16:37:43,690 HouseKeeper.java,167 [Stopped scavenging]
+[INFO ] 10-13 16:37:43,692 ContextHandler.java,957 [Stopped o.s.b.w.e.j.JettyEmbeddedWebAppContext@bc22b64{/example,[file:///C:/Users/liyakun/AppData/Local/Temp/jetty-docbase.4772350568557071942.8080/],UNAVAILABLE}]
+[INFO ] 10-13 16:37:43,701 ConditionEvaluationReportLoggingListener.java,101 [
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.]
+[ERROR] 10-13 16:37:43,719 SpringApplication.java,833 [Application run failed]
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'springSecurityFilterChain' defined in class path resource [org/springframework/security/config/annotation/web/configuration/WebSecurityConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [javax.servlet.Filter]: Factory method 'springSecurityFilterChain' threw exception; nested exception is java.lang.Error: Unresolved compilation problem: 
+	The method csrf() is undefined for the type FormLoginConfigurer<HttpSecurity>
+
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:587)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1250)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1099)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:545)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:502)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:312)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:228)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:310)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:304)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:760)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:868)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:549)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:140)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:752)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:388)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:327)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1246)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1234)
+	at com.inspur.exampleproject.ExampleprojectApplication.main(ExampleprojectApplication.java:20)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [javax.servlet.Filter]: Factory method 'springSecurityFilterChain' threw exception; nested exception is java.lang.Error: Unresolved compilation problem: 
+	The method csrf() is undefined for the type FormLoginConfigurer<HttpSecurity>
+
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:185)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:579)
+	... 25 more
+Caused by: java.lang.Error: Unresolved compilation problem: 
+	The method csrf() is undefined for the type FormLoginConfigurer<HttpSecurity>
+
+	at com.inspur.exampleproject.config.WebSecurityConfig.configure(WebSecurityConfig.java:32)
+	at org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter.getHttp(WebSecurityConfigurerAdapter.java:230)
+	at org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter.init(WebSecurityConfigurerAdapter.java:321)
+	at org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter.init(WebSecurityConfigurerAdapter.java:92)
+	at com.inspur.exampleproject.config.WebSecurityConfig$$EnhancerBySpringCGLIB$$8f3d7f72.init(<generated>)
+	at org.springframework.security.config.annotation.AbstractConfiguredSecurityBuilder.init(AbstractConfiguredSecurityBuilder.java:371)
+	at org.springframework.security.config.annotation.AbstractConfiguredSecurityBuilder.doBuild(AbstractConfiguredSecurityBuilder.java:325)
+	at org.springframework.security.config.annotation.AbstractSecurityBuilder.build(AbstractSecurityBuilder.java:41)
+	at org.springframework.security.config.annotation.web.configuration.WebSecurityConfiguration.springSecurityFilterChain(WebSecurityConfiguration.java:104)
+	at org.springframework.security.config.annotation.web.configuration.WebSecurityConfiguration$$EnhancerBySpringCGLIB$$316dabb9.CGLIB$springSecurityFilterChain$5(<generated>)
+	at org.springframework.security.config.annotation.web.configuration.WebSecurityConfiguration$$EnhancerBySpringCGLIB$$316dabb9$$FastClassBySpringCGLIB$$26983ef.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:361)
+	at org.springframework.security.config.annotation.web.configuration.WebSecurityConfiguration$$EnhancerBySpringCGLIB$$316dabb9.springSecurityFilterChain(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154)
+	... 26 more
+[INFO ] 10-13 16:37:53,455 StartupInfoLogger.java,50 [Starting ExampleprojectApplication on liyakun00 with PID 8200 (D:\tmp\exampleproject\exampleproject\target\classes started by liyakun in D:\tmp\exampleproject\exampleproject)]
+[INFO ] 10-13 16:37:53,456 SpringApplication.java,652 [No active profile set, falling back to default profiles: default]
+[INFO ] 10-13 16:37:53,465 AbstractApplicationContext.java,589 [Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@7baadb19: startup date [Sat Oct 13 16:37:53 CST 2018]; root of context hierarchy]
+[INFO ] 10-13 16:37:54,167 DefaultListableBeanFactory.java,824 [Overriding bean definition for bean 'dataSource' with a different definition: replacing [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Generic; factoryMethodName=dataSource; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Generic.class]] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Hikari; factoryMethodName=dataSource; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]]]
+[INFO ] 10-13 16:37:54,412 PostProcessorRegistrationDelegate.java,328 [Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$8a3c7ec6] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)]
+[INFO ] 10-13 16:37:54,422 PostProcessorRegistrationDelegate.java,328 [Bean 'org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration' of type [org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration$$EnhancerBySpringCGLIB$$22ea4700] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)]
+[INFO ] 10-13 16:37:54,425 PostProcessorRegistrationDelegate.java,328 [Bean 'objectPostProcessor' of type [org.springframework.security.config.annotation.configuration.AutowireBeanFactoryObjectPostProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)]
+[INFO ] 10-13 16:37:54,426 PostProcessorRegistrationDelegate.java,328 [Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@4806d2de' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)]
+[INFO ] 10-13 16:37:54,429 PostProcessorRegistrationDelegate.java,328 [Bean 'org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration' of type [org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration$$EnhancerBySpringCGLIB$$47bee9b2] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)]
+[INFO ] 10-13 16:37:54,431 PostProcessorRegistrationDelegate.java,328 [Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)]
+[INFO ] 10-13 16:37:54,570 JettyServletWebServerFactory.java,146 [Server initialized with port: 8080]
+[INFO ] 10-13 16:37:54,570 Server.java,373 [jetty-9.4.8.v20171121, build timestamp: 2017-11-22T05:27:37+08:00, git hash: 82b8fb23f757335bb3329d540ce37a2a2615f0a8]
+[INFO ] 10-13 16:37:54,577 DefaultSessionIdManager.java,364 [DefaultSessionIdManager workerName=node0]
+[INFO ] 10-13 16:37:54,578 DefaultSessionIdManager.java,369 [No SessionScavenger set, using defaults]
+[INFO ] 10-13 16:37:54,578 HouseKeeper.java,149 [Scavenging every 660000ms]
+[INFO ] 10-13 16:37:54,580 ContextHandler.java,2221 [Initializing Spring embedded WebApplicationContext]
+[INFO ] 10-13 16:37:54,580 ServletWebServerApplicationContext.java,285 [Root WebApplicationContext: initialization completed in 1115 ms]
+[INFO ] 10-13 16:37:54,681 AbstractFilterRegistrationBean.java,243 [Mapping filter: 'characterEncodingFilter' to: [/*]]
+[INFO ] 10-13 16:37:54,682 AbstractFilterRegistrationBean.java,243 [Mapping filter: 'hiddenHttpMethodFilter' to: [/*]]
+[INFO ] 10-13 16:37:54,682 AbstractFilterRegistrationBean.java,243 [Mapping filter: 'httpPutFormContentFilter' to: [/*]]
+[INFO ] 10-13 16:37:54,683 AbstractFilterRegistrationBean.java,243 [Mapping filter: 'requestContextFilter' to: [/*]]
+[INFO ] 10-13 16:37:54,683 AbstractFilterRegistrationBean.java,243 [Mapping filter: 'springSecurityFilterChain' to: [/*]]
+[INFO ] 10-13 16:37:54,683 ServletRegistrationBean.java,185 [Servlet dispatcherServlet mapped to [/]]
+[INFO ] 10-13 16:37:54,684 ContextHandler.java,788 [Started o.s.b.w.e.j.JettyEmbeddedWebAppContext@6ec739cb{/example,[file:///C:/Users/liyakun/AppData/Local/Temp/jetty-docbase.2078106612747325497.8080/],AVAILABLE}]
+[INFO ] 10-13 16:37:54,685 Server.java,410 [Started @808604ms]
+[INFO ] 10-13 16:37:54,738 HikariDataSource.java,110 [HikariPool-3 - Starting...]
+[INFO ] 10-13 16:37:54,782 PoolBase.java,516 [HikariPool-3 - Driver does not support get/set network timeout for connections. (oracle.jdbc.driver.T4CConnection.getNetworkTimeout()I)]
+[INFO ] 10-13 16:37:54,786 HikariDataSource.java,123 [HikariPool-3 - Start completed.]
+[INFO ] 10-13 16:37:54,805 LocalContainerEntityManagerFactoryBean.java,361 [Building JPA container EntityManagerFactory for persistence unit 'default']
+[INFO ] 10-13 16:37:54,805 LogHelper.java,31 [HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]]
+[INFO ] 10-13 16:37:54,821 Dialect.java,157 [HHH000400: Using dialect: org.hibernate.dialect.Oracle12cDialect]
+[INFO ] 10-13 16:37:54,888 BasicTypeRegistry.java,148 [HHH000270: Type registration [byte[]] overrides previous : org.hibernate.type.BinaryType@2e720a5e]
+[INFO ] 10-13 16:37:54,889 BasicTypeRegistry.java,148 [HHH000270: Type registration [[B] overrides previous : org.hibernate.type.BinaryType@2e720a5e]
+[INFO ] 10-13 16:37:54,889 BasicTypeRegistry.java,148 [HHH000270: Type registration [Byte[]] overrides previous : org.hibernate.type.WrapperBinaryType@33da05ad]
+[INFO ] 10-13 16:37:54,889 BasicTypeRegistry.java,148 [HHH000270: Type registration [[Ljava.lang.Byte;] overrides previous : org.hibernate.type.WrapperBinaryType@33da05ad]
+[INFO ] 10-13 16:38:01,311 AbstractEntityManagerFactoryBean.java,394 [Initialized JPA EntityManagerFactory for persistence unit 'default']
+[INFO ] 10-13 16:38:14,979 DefaultSecurityFilterChain.java,43 [Creating filter chain: org.springframework.security.web.util.matcher.AnyRequestMatcher@1, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@315f5d14, org.springframework.security.web.context.SecurityContextPersistenceFilter@3c5643d6, org.springframework.security.web.header.HeaderWriterFilter@75af20e3, org.springframework.security.web.authentication.logout.LogoutFilter@1f3c6516, com.inspur.exampleproject.jwt.JWTLoginFilter@5c4639c3, com.inspur.exampleproject.jwt.JWTLoginFilter@464556, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@117addd4, com.inspur.exampleproject.jwt.JWTAuthenticationFilter@3c0e8c47, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2008941e, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@2c2c10c4, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@77f2d12f, org.springframework.security.web.session.SessionManagementFilter@68bb7304, org.springframework.security.web.access.ExceptionTranslationFilter@385482c0, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@74190db4]]
+[INFO ] 10-13 16:38:15,152 RequestMappingHandlerAdapter.java,567 [Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@7baadb19: startup date [Sat Oct 13 16:37:53 CST 2018]; root of context hierarchy]
+[WARN ] 10-13 16:38:15,184 JpaBaseConfiguration.java,235 [spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning]
+[INFO ] 10-13 16:38:15,193 AbstractHandlerMethodMapping.java,548 [Mapped "{[/login],methods=[POST]}" onto public org.springframework.http.ResponseEntity<java.lang.Void> com.inspur.exampleproject.web.controller.TestController.login(com.inspur.exampleproject.web.resq.UserInfo)]
+[INFO ] 10-13 16:38:15,194 AbstractHandlerMethodMapping.java,548 [Mapped "{[/getAlldata],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.util.List<com.inspur.exampleproject.entity.DemoTest>> com.inspur.exampleproject.web.controller.TestController.getAlldata()]
+[INFO ] 10-13 16:38:15,194 AbstractHandlerMethodMapping.java,548 [Mapped "{[/toLogin],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.inspur.exampleproject.web.controller.TestController.toLogin()]
+[INFO ] 10-13 16:38:15,195 AbstractHandlerMethodMapping.java,548 [Mapped "{[/getAllmap],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.util.List> com.inspur.exampleproject.web.controller.TestController.getAlldataMap()]
+[INFO ] 10-13 16:38:15,196 AbstractHandlerMethodMapping.java,548 [Mapped "{[/view/{url}]}" onto public java.lang.String com.inspur.exampleproject.web.HomeController.mainPage(java.lang.String)]
+[INFO ] 10-13 16:38:15,199 AbstractHandlerMethodMapping.java,548 [Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)]
+[INFO ] 10-13 16:38:15,200 AbstractHandlerMethodMapping.java,548 [Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)]
+[INFO ] 10-13 16:38:15,273 AbstractUrlHandlerMapping.java,373 [Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]]
+[INFO ] 10-13 16:38:15,273 AbstractUrlHandlerMapping.java,373 [Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]]
+[INFO ] 10-13 16:38:15,332 AbstractUrlHandlerMapping.java,373 [Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]]
+[INFO ] 10-13 16:38:15,529 OptionalLiveReloadServer.java,57 [LiveReload server is running on port 35729]
+[INFO ] 10-13 16:38:15,785 MBeanExporter.java,434 [Registering beans for JMX exposure on startup]
+[INFO ] 10-13 16:38:15,786 MBeanExporter.java,896 [Bean with name 'dataSource' has been autodetected for JMX exposure]
+[INFO ] 10-13 16:38:15,791 MBeanExporter.java,669 [Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]]
+[INFO ] 10-13 16:38:15,797 ContextHandler.java,2221 [Initializing Spring FrameworkServlet 'dispatcherServlet']
+[INFO ] 10-13 16:38:15,797 FrameworkServlet.java,494 [FrameworkServlet 'dispatcherServlet': initialization started]
+[INFO ] 10-13 16:38:15,804 FrameworkServlet.java,513 [FrameworkServlet 'dispatcherServlet': initialization completed in 6 ms]
+[INFO ] 10-13 16:38:15,807 AbstractConnector.java,288 [Started ServerConnector@3e79c5b6{HTTP/1.1,[http/1.1]}{0.0.0.0:8080}]
+[INFO ] 10-13 16:38:15,808 JettyWebServer.java,158 [Jetty started on port(s) 8080 (http/1.1) with context path '/example']
+[INFO ] 10-13 16:38:15,809 StartupInfoLogger.java,59 [Started ExampleprojectApplication in 22.406 seconds (JVM running for 829.728)]
+[INFO ] 10-13 16:38:15,813 ConditionEvaluationDeltaLoggingListener.java,56 [Condition evaluation unchanged]
+[INFO ] 10-13 16:40:17,191 QueryTranslatorFactoryInitiator.java,47 [HHH000397: Using ASTQueryTranslatorFactory]
+[WARN ] 10-13 16:40:17,429 HttpChannel.java,568 [/example/authenticate]
+java.lang.NullPointerException
+	at com.inspur.exampleproject.service.MyUserDetailService.loadUserByUsername(MyUserDetailService.java:29)
+	at com.inspur.exampleproject.jwt.UserAuthProvider.authenticate(UserAuthProvider.java:31)
+	at org.springframework.security.authentication.ProviderManager.authenticate(ProviderManager.java:174)
+	at org.springframework.security.authentication.ProviderManager.authenticate(ProviderManager.java:199)
+	at org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter.attemptAuthentication(UsernamePasswordAuthenticationFilter.java:94)
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:212)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:200)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:200)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:66)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:105)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:56)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:215)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:178)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:357)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:270)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1637)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1637)
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:109)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1637)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:81)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1637)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1637)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:533)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:548)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:190)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:1595)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:188)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1253)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:168)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:473)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:1564)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:166)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1155)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.eclipse.jetty.server.Server.handle(Server.java:530)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:347)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:256)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:279)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:102)
+	at org.eclipse.jetty.io.ChannelEndPoint$2.run(ChannelEndPoint.java:124)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.doProduce(EatWhatYouKill.java:247)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.produce(EatWhatYouKill.java:140)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:708)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:626)
+	at java.lang.Thread.run(Unknown Source)
+[WARN ] 10-13 16:40:19,603 ErrorHandler.java,106 [Error page loop /error]
+[INFO ] 10-13 16:41:09,313 AbstractApplicationContext.java,989 [Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@7baadb19: startup date [Sat Oct 13 16:37:53 CST 2018]; root of context hierarchy]
+[INFO ] 10-13 16:41:09,317 MBeanExporter.java,452 [Unregistering JMX-exposed beans on shutdown]
+[INFO ] 10-13 16:41:09,318 MBeanRegistrationSupport.java,183 [Unregistering JMX-exposed beans]
+[INFO ] 10-13 16:41:09,322 AbstractEntityManagerFactoryBean.java,572 [Closing JPA EntityManagerFactory for persistence unit 'default']
+[INFO ] 10-13 16:41:09,323 HikariDataSource.java,381 [HikariPool-3 - Shutdown initiated...]
+[INFO ] 10-13 16:41:09,573 HikariDataSource.java,383 [HikariPool-3 - Shutdown completed.]
+[INFO ] 10-13 16:41:09,588 AbstractConnector.java,331 [Stopped ServerConnector@3e79c5b6{HTTP/1.1,[http/1.1]}{0.0.0.0:8080}]
+[INFO ] 10-13 16:41:09,592 HouseKeeper.java,167 [Stopped scavenging]
+[INFO ] 10-13 16:41:09,629 ContextHandler.java,2221 [Destroying Spring FrameworkServlet 'dispatcherServlet']
+[INFO ] 10-13 16:41:09,630 ContextHandler.java,957 [Stopped o.s.b.w.e.j.JettyEmbeddedWebAppContext@6ec739cb{/example,[file:///C:/Users/liyakun/AppData/Local/Temp/jetty-docbase.2078106612747325497.8080/],UNAVAILABLE}]
+[INFO ] 10-13 16:41:09,914 StartupInfoLogger.java,50 [Starting ExampleprojectApplication on liyakun00 with PID 8200 (D:\tmp\exampleproject\exampleproject\target\classes started by liyakun in D:\tmp\exampleproject\exampleproject)]
+[INFO ] 10-13 16:41:09,915 SpringApplication.java,652 [No active profile set, falling back to default profiles: default]
+[INFO ] 10-13 16:41:09,922 AbstractApplicationContext.java,589 [Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@20e76c79: startup date [Sat Oct 13 16:41:09 CST 2018]; root of context hierarchy]
+[INFO ] 10-13 16:41:10,542 DefaultListableBeanFactory.java,824 [Overriding bean definition for bean 'dataSource' with a different definition: replacing [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Generic; factoryMethodName=dataSource; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Generic.class]] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Hikari; factoryMethodName=dataSource; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]]]
+[INFO ] 10-13 16:41:10,732 PostProcessorRegistrationDelegate.java,328 [Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$8a3c7ec6] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)]
+[INFO ] 10-13 16:41:10,740 PostProcessorRegistrationDelegate.java,328 [Bean 'org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration' of type [org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration$$EnhancerBySpringCGLIB$$22ea4700] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)]
+[INFO ] 10-13 16:41:10,743 PostProcessorRegistrationDelegate.java,328 [Bean 'objectPostProcessor' of type [org.springframework.security.config.annotation.configuration.AutowireBeanFactoryObjectPostProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)]
+[INFO ] 10-13 16:41:10,743 PostProcessorRegistrationDelegate.java,328 [Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@6756c81e' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)]
+[INFO ] 10-13 16:41:10,745 PostProcessorRegistrationDelegate.java,328 [Bean 'org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration' of type [org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration$$EnhancerBySpringCGLIB$$47bee9b2] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)]
+[INFO ] 10-13 16:41:10,746 PostProcessorRegistrationDelegate.java,328 [Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)]
+[INFO ] 10-13 16:41:10,893 JettyServletWebServerFactory.java,146 [Server initialized with port: 8080]
+[INFO ] 10-13 16:41:10,894 Server.java,373 [jetty-9.4.8.v20171121, build timestamp: 2017-11-22T05:27:37+08:00, git hash: 82b8fb23f757335bb3329d540ce37a2a2615f0a8]
+[INFO ] 10-13 16:41:10,900 DefaultSessionIdManager.java,364 [DefaultSessionIdManager workerName=node0]
+[INFO ] 10-13 16:41:10,901 DefaultSessionIdManager.java,369 [No SessionScavenger set, using defaults]
+[INFO ] 10-13 16:41:10,901 HouseKeeper.java,149 [Scavenging every 600000ms]
+[INFO ] 10-13 16:41:10,903 ContextHandler.java,2221 [Initializing Spring embedded WebApplicationContext]
+[INFO ] 10-13 16:41:10,903 ServletWebServerApplicationContext.java,285 [Root WebApplicationContext: initialization completed in 981 ms]
+[INFO ] 10-13 16:41:11,011 AbstractFilterRegistrationBean.java,243 [Mapping filter: 'characterEncodingFilter' to: [/*]]
+[INFO ] 10-13 16:41:11,012 AbstractFilterRegistrationBean.java,243 [Mapping filter: 'hiddenHttpMethodFilter' to: [/*]]
+[INFO ] 10-13 16:41:11,012 AbstractFilterRegistrationBean.java,243 [Mapping filter: 'httpPutFormContentFilter' to: [/*]]
+[INFO ] 10-13 16:41:11,012 AbstractFilterRegistrationBean.java,243 [Mapping filter: 'requestContextFilter' to: [/*]]
+[INFO ] 10-13 16:41:11,013 AbstractFilterRegistrationBean.java,243 [Mapping filter: 'springSecurityFilterChain' to: [/*]]
+[INFO ] 10-13 16:41:11,013 ServletRegistrationBean.java,185 [Servlet dispatcherServlet mapped to [/]]
+[INFO ] 10-13 16:41:11,013 ContextHandler.java,788 [Started o.s.b.w.e.j.JettyEmbeddedWebAppContext@4c7b33df{/example,[file:///C:/Users/liyakun/AppData/Local/Temp/jetty-docbase.887453475417408959.8080/],AVAILABLE}]
+[INFO ] 10-13 16:41:11,014 Server.java,410 [Started @1004932ms]
+[INFO ] 10-13 16:41:11,068 HikariDataSource.java,110 [HikariPool-4 - Starting...]
+[INFO ] 10-13 16:41:11,120 PoolBase.java,516 [HikariPool-4 - Driver does not support get/set network timeout for connections. (oracle.jdbc.driver.T4CConnection.getNetworkTimeout()I)]
+[INFO ] 10-13 16:41:11,123 HikariDataSource.java,123 [HikariPool-4 - Start completed.]
+[INFO ] 10-13 16:41:11,139 LocalContainerEntityManagerFactoryBean.java,361 [Building JPA container EntityManagerFactory for persistence unit 'default']
+[INFO ] 10-13 16:41:11,139 LogHelper.java,31 [HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]]
+[INFO ] 10-13 16:41:11,155 Dialect.java,157 [HHH000400: Using dialect: org.hibernate.dialect.Oracle12cDialect]
+[INFO ] 10-13 16:41:11,223 BasicTypeRegistry.java,148 [HHH000270: Type registration [byte[]] overrides previous : org.hibernate.type.BinaryType@2e720a5e]
+[INFO ] 10-13 16:41:11,224 BasicTypeRegistry.java,148 [HHH000270: Type registration [[B] overrides previous : org.hibernate.type.BinaryType@2e720a5e]
+[INFO ] 10-13 16:41:11,224 BasicTypeRegistry.java,148 [HHH000270: Type registration [Byte[]] overrides previous : org.hibernate.type.WrapperBinaryType@33da05ad]
+[INFO ] 10-13 16:41:11,224 BasicTypeRegistry.java,148 [HHH000270: Type registration [[Ljava.lang.Byte;] overrides previous : org.hibernate.type.WrapperBinaryType@33da05ad]
+[INFO ] 10-13 16:41:18,296 AbstractEntityManagerFactoryBean.java,394 [Initialized JPA EntityManagerFactory for persistence unit 'default']
+[INFO ] 10-13 16:41:25,001 DefaultSecurityFilterChain.java,43 [Creating filter chain: org.springframework.security.web.util.matcher.AnyRequestMatcher@1, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@76080710, org.springframework.security.web.context.SecurityContextPersistenceFilter@5f1825b4, org.springframework.security.web.header.HeaderWriterFilter@1c31b1d2, org.springframework.security.web.authentication.logout.LogoutFilter@3eba9768, com.inspur.exampleproject.jwt.JWTLoginFilter@51e9825b, com.inspur.exampleproject.jwt.JWTLoginFilter@15667717, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@2011208e, com.inspur.exampleproject.jwt.JWTAuthenticationFilter@73ed023e, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6f1c364d, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@7e32b55d, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@456babd4, org.springframework.security.web.session.SessionManagementFilter@42605516, org.springframework.security.web.access.ExceptionTranslationFilter@38511cb6, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@97df20f]]
+[INFO ] 10-13 16:41:25,172 RequestMappingHandlerAdapter.java,567 [Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@20e76c79: startup date [Sat Oct 13 16:41:09 CST 2018]; root of context hierarchy]
+[WARN ] 10-13 16:41:25,203 JpaBaseConfiguration.java,235 [spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning]
+[INFO ] 10-13 16:41:25,211 AbstractHandlerMethodMapping.java,548 [Mapped "{[/authenticate],methods=[POST]}" onto public org.springframework.http.ResponseEntity<java.lang.Void> com.inspur.exampleproject.web.controller.TestController.login(com.inspur.exampleproject.web.resq.UserInfo)]
+[INFO ] 10-13 16:41:25,212 AbstractHandlerMethodMapping.java,548 [Mapped "{[/getAlldata],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.util.List<com.inspur.exampleproject.entity.DemoTest>> com.inspur.exampleproject.web.controller.TestController.getAlldata()]
+[INFO ] 10-13 16:41:25,212 AbstractHandlerMethodMapping.java,548 [Mapped "{[/toLogin],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.inspur.exampleproject.web.controller.TestController.toLogin()]
+[INFO ] 10-13 16:41:25,213 AbstractHandlerMethodMapping.java,548 [Mapped "{[/getAllmap],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.util.List> com.inspur.exampleproject.web.controller.TestController.getAlldataMap()]
+[INFO ] 10-13 16:41:25,213 AbstractHandlerMethodMapping.java,548 [Mapped "{[/view/{url}]}" onto public java.lang.String com.inspur.exampleproject.web.HomeController.mainPage(java.lang.String)]
+[INFO ] 10-13 16:41:25,217 AbstractHandlerMethodMapping.java,548 [Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)]
+[INFO ] 10-13 16:41:25,218 AbstractHandlerMethodMapping.java,548 [Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)]
+[INFO ] 10-13 16:41:25,291 AbstractUrlHandlerMapping.java,373 [Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]]
+[INFO ] 10-13 16:41:25,292 AbstractUrlHandlerMapping.java,373 [Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]]
+[INFO ] 10-13 16:41:25,347 AbstractUrlHandlerMapping.java,373 [Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]]
+[INFO ] 10-13 16:41:25,522 OptionalLiveReloadServer.java,57 [LiveReload server is running on port 35729]
+[INFO ] 10-13 16:41:25,777 MBeanExporter.java,434 [Registering beans for JMX exposure on startup]
+[INFO ] 10-13 16:41:25,778 MBeanExporter.java,896 [Bean with name 'dataSource' has been autodetected for JMX exposure]
+[INFO ] 10-13 16:41:25,782 MBeanExporter.java,669 [Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]]
+[INFO ] 10-13 16:41:25,788 ContextHandler.java,2221 [Initializing Spring FrameworkServlet 'dispatcherServlet']
+[INFO ] 10-13 16:41:25,788 FrameworkServlet.java,494 [FrameworkServlet 'dispatcherServlet': initialization started]
+[INFO ] 10-13 16:41:25,794 FrameworkServlet.java,513 [FrameworkServlet 'dispatcherServlet': initialization completed in 6 ms]
+[INFO ] 10-13 16:41:25,798 AbstractConnector.java,288 [Started ServerConnector@18bd89f1{HTTP/1.1,[http/1.1]}{0.0.0.0:8080}]
+[INFO ] 10-13 16:41:25,798 JettyWebServer.java,158 [Jetty started on port(s) 8080 (http/1.1) with context path '/example']
+[INFO ] 10-13 16:41:25,799 StartupInfoLogger.java,59 [Started ExampleprojectApplication in 15.925 seconds (JVM running for 1019.718)]
+[INFO ] 10-13 16:41:25,803 ConditionEvaluationDeltaLoggingListener.java,56 [Condition evaluation unchanged]
+[INFO ] 10-13 16:41:39,128 QueryTranslatorFactoryInitiator.java,47 [HHH000397: Using ASTQueryTranslatorFactory]
+[WARN ] 10-13 16:41:39,268 HttpChannel.java,568 [/example/authenticate]
+java.lang.NullPointerException
+	at com.inspur.exampleproject.service.MyUserDetailService.loadUserByUsername(MyUserDetailService.java:29)
+	at com.inspur.exampleproject.jwt.UserAuthProvider.authenticate(UserAuthProvider.java:31)
+	at org.springframework.security.authentication.ProviderManager.authenticate(ProviderManager.java:174)
+	at org.springframework.security.authentication.ProviderManager.authenticate(ProviderManager.java:199)
+	at org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter.attemptAuthentication(UsernamePasswordAuthenticationFilter.java:94)
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:212)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:200)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:200)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:66)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:105)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:56)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:215)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:178)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:357)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:270)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1637)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1637)
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:109)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1637)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:81)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1637)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1637)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:533)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:548)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:190)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:1595)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:188)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1253)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:168)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:473)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:1564)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:166)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1155)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.eclipse.jetty.server.Server.handle(Server.java:530)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:347)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:256)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:279)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:102)
+	at org.eclipse.jetty.io.ChannelEndPoint$2.run(ChannelEndPoint.java:124)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.doProduce(EatWhatYouKill.java:247)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.produce(EatWhatYouKill.java:140)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.run(EatWhatYouKill.java:131)
+	at org.eclipse.jetty.util.thread.ReservedThreadExecutor$ReservedThread.run(ReservedThreadExecutor.java:382)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:708)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:626)
+	at java.lang.Thread.run(Unknown Source)
+[WARN ] 10-13 16:41:41,636 ErrorHandler.java,106 [Error page loop /error]
+[INFO ] 10-13 16:41:57,615 SpringApplicationAdminMXBeanRegistrar.java,132 [Application shutdown requested.]
+[INFO ] 10-13 16:41:57,616 AbstractApplicationContext.java,989 [Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@20e76c79: startup date [Sat Oct 13 16:41:09 CST 2018]; root of context hierarchy]
+[INFO ] 10-13 16:41:57,618 MBeanExporter.java,452 [Unregistering JMX-exposed beans on shutdown]
+[INFO ] 10-13 16:41:57,618 MBeanRegistrationSupport.java,183 [Unregistering JMX-exposed beans]
+[INFO ] 10-13 16:41:57,619 AbstractEntityManagerFactoryBean.java,572 [Closing JPA EntityManagerFactory for persistence unit 'default']
+[INFO ] 10-13 16:41:57,620 HikariDataSource.java,381 [HikariPool-4 - Shutdown initiated...]
+[INFO ] 10-13 16:41:57,882 HikariDataSource.java,383 [HikariPool-4 - Shutdown completed.]
+[INFO ] 10-13 16:41:57,889 AbstractConnector.java,331 [Stopped ServerConnector@18bd89f1{HTTP/1.1,[http/1.1]}{0.0.0.0:8080}]
+[INFO ] 10-13 16:41:57,891 HouseKeeper.java,167 [Stopped scavenging]
+[INFO ] 10-13 16:41:57,909 ContextHandler.java,2221 [Destroying Spring FrameworkServlet 'dispatcherServlet']
+[INFO ] 10-13 16:41:57,910 ContextHandler.java,957 [Stopped o.s.b.w.e.j.JettyEmbeddedWebAppContext@4c7b33df{/example,[file:///C:/Users/liyakun/AppData/Local/Temp/jetty-docbase.887453475417408959.8080/],UNAVAILABLE}]
+[INFO ] 10-13 16:48:11,862 Version.java,21 [HV000001: Hibernate Validator 6.0.7.Final]
+[INFO ] 10-13 16:48:12,045 StartupInfoLogger.java,50 [Starting ExampleprojectApplication on liyakun00 with PID 25232 (D:\tmp\exampleproject\exampleproject\target\classes started by liyakun in D:\tmp\exampleproject\exampleproject)]
+[INFO ] 10-13 16:48:12,046 SpringApplication.java,652 [No active profile set, falling back to default profiles: default]
+[INFO ] 10-13 16:48:12,113 AbstractApplicationContext.java,589 [Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@477a9377: startup date [Sat Oct 13 16:48:12 CST 2018]; root of context hierarchy]
+[INFO ] 10-13 16:48:13,331 DefaultListableBeanFactory.java,824 [Overriding bean definition for bean 'dataSource' with a different definition: replacing [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Generic; factoryMethodName=dataSource; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Generic.class]] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Hikari; factoryMethodName=dataSource; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]]]
+[INFO ] 10-13 16:48:14,057 PostProcessorRegistrationDelegate.java,328 [Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$ebdb1d70] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)]
+[INFO ] 10-13 16:48:14,125 PostProcessorRegistrationDelegate.java,328 [Bean 'org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration' of type [org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration$$EnhancerBySpringCGLIB$$8488e5aa] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)]
+[INFO ] 10-13 16:48:14,138 PostProcessorRegistrationDelegate.java,328 [Bean 'objectPostProcessor' of type [org.springframework.security.config.annotation.configuration.AutowireBeanFactoryObjectPostProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)]
+[INFO ] 10-13 16:48:14,141 PostProcessorRegistrationDelegate.java,328 [Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@662ab97a' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)]
+[INFO ] 10-13 16:48:14,151 PostProcessorRegistrationDelegate.java,328 [Bean 'org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration' of type [org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration$$EnhancerBySpringCGLIB$$a95d885c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)]
+[INFO ] 10-13 16:48:14,164 PostProcessorRegistrationDelegate.java,328 [Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)]
+[INFO ] 10-13 16:48:14,426 Log.java,192 [Logging initialized @4070ms to org.eclipse.jetty.util.log.Slf4jLog]
+[INFO ] 10-13 16:48:14,563 JettyServletWebServerFactory.java,146 [Server initialized with port: 8080]
+[INFO ] 10-13 16:48:14,576 Server.java,373 [jetty-9.4.8.v20171121, build timestamp: 2017-11-22T05:27:37+08:00, git hash: 82b8fb23f757335bb3329d540ce37a2a2615f0a8]
+[INFO ] 10-13 16:48:14,741 DefaultSessionIdManager.java,364 [DefaultSessionIdManager workerName=node0]
+[INFO ] 10-13 16:48:14,742 DefaultSessionIdManager.java,369 [No SessionScavenger set, using defaults]
+[INFO ] 10-13 16:48:14,744 HouseKeeper.java,149 [Scavenging every 600000ms]
+[INFO ] 10-13 16:48:14,755 ContextHandler.java,2221 [Initializing Spring embedded WebApplicationContext]
+[INFO ] 10-13 16:48:14,755 ServletWebServerApplicationContext.java,285 [Root WebApplicationContext: initialization completed in 2646 ms]
+[INFO ] 10-13 16:48:14,987 AbstractFilterRegistrationBean.java,243 [Mapping filter: 'characterEncodingFilter' to: [/*]]
+[INFO ] 10-13 16:48:14,988 AbstractFilterRegistrationBean.java,243 [Mapping filter: 'hiddenHttpMethodFilter' to: [/*]]
+[INFO ] 10-13 16:48:14,988 AbstractFilterRegistrationBean.java,243 [Mapping filter: 'httpPutFormContentFilter' to: [/*]]
+[INFO ] 10-13 16:48:14,988 AbstractFilterRegistrationBean.java,243 [Mapping filter: 'requestContextFilter' to: [/*]]
+[INFO ] 10-13 16:48:14,989 AbstractFilterRegistrationBean.java,243 [Mapping filter: 'springSecurityFilterChain' to: [/*]]
+[INFO ] 10-13 16:48:14,990 ServletRegistrationBean.java,185 [Servlet dispatcherServlet mapped to [/]]
+[INFO ] 10-13 16:48:14,995 ContextHandler.java,788 [Started o.s.b.w.e.j.JettyEmbeddedWebAppContext@7f051a73{/example,[file:///C:/Users/liyakun/AppData/Local/Temp/jetty-docbase.6542361120919756716.8080/],AVAILABLE}]
+[INFO ] 10-13 16:48:14,996 Server.java,410 [Started @4642ms]
+[INFO ] 10-13 16:48:15,204 HikariDataSource.java,110 [HikariPool-1 - Starting...]
+[INFO ] 10-13 16:48:15,441 PoolBase.java,516 [HikariPool-1 - Driver does not support get/set network timeout for connections. (oracle.jdbc.driver.T4CConnection.getNetworkTimeout()I)]
+[INFO ] 10-13 16:48:15,459 HikariDataSource.java,123 [HikariPool-1 - Start completed.]
+[INFO ] 10-13 16:48:15,525 LocalContainerEntityManagerFactoryBean.java,361 [Building JPA container EntityManagerFactory for persistence unit 'default']
+[INFO ] 10-13 16:48:15,540 LogHelper.java,31 [HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]]
+[INFO ] 10-13 16:48:15,651 Version.java,45 [HHH000412: Hibernate Core {5.2.14.Final}]
+[INFO ] 10-13 16:48:15,654 Environment.java,213 [HHH000206: hibernate.properties not found]
+[INFO ] 10-13 16:48:15,705 JavaReflectionManager.java,66 [HCANN000001: Hibernate Commons Annotations {5.0.1.Final}]
+[INFO ] 10-13 16:48:15,973 Dialect.java,157 [HHH000400: Using dialect: org.hibernate.dialect.Oracle12cDialect]
+[INFO ] 10-13 16:48:16,137 BasicTypeRegistry.java,148 [HHH000270: Type registration [byte[]] overrides previous : org.hibernate.type.BinaryType@6ae4d8]
+[INFO ] 10-13 16:48:16,137 BasicTypeRegistry.java,148 [HHH000270: Type registration [[B] overrides previous : org.hibernate.type.BinaryType@6ae4d8]
+[INFO ] 10-13 16:48:16,138 BasicTypeRegistry.java,148 [HHH000270: Type registration [Byte[]] overrides previous : org.hibernate.type.WrapperBinaryType@1c6bc1d0]
+[INFO ] 10-13 16:48:16,139 BasicTypeRegistry.java,148 [HHH000270: Type registration [[Ljava.lang.Byte;] overrides previous : org.hibernate.type.WrapperBinaryType@1c6bc1d0]
+[INFO ] 10-13 16:48:23,333 AbstractEntityManagerFactoryBean.java,394 [Initialized JPA EntityManagerFactory for persistence unit 'default']
+[INFO ] 10-13 16:48:29,291 DefaultSecurityFilterChain.java,43 [Creating filter chain: org.springframework.security.web.util.matcher.AnyRequestMatcher@1, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@5e5a9a13, org.springframework.security.web.context.SecurityContextPersistenceFilter@615c31c4, org.springframework.security.web.header.HeaderWriterFilter@7b2b095c, org.springframework.security.web.authentication.logout.LogoutFilter@2b2192ae, com.inspur.exampleproject.jwt.JWTLoginFilter@514ec766, com.inspur.exampleproject.jwt.JWTLoginFilter@672d2ccb, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@2adeba20, com.inspur.exampleproject.jwt.JWTAuthenticationFilter@1d96ae10, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@5ed51ffe, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@5b4a38a5, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@171635b3, org.springframework.security.web.session.SessionManagementFilter@360aeefd, org.springframework.security.web.access.ExceptionTranslationFilter@779c0ed8, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@7569f26f]]
+[INFO ] 10-13 16:48:29,814 RequestMappingHandlerAdapter.java,567 [Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@477a9377: startup date [Sat Oct 13 16:48:12 CST 2018]; root of context hierarchy]
+[WARN ] 10-13 16:48:29,875 JpaBaseConfiguration.java,235 [spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning]
+[INFO ] 10-13 16:48:29,928 AbstractHandlerMethodMapping.java,548 [Mapped "{[/getAlldata],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.util.List<com.inspur.exampleproject.entity.DemoTest>> com.inspur.exampleproject.web.controller.TestController.getAlldata()]
+[INFO ] 10-13 16:48:29,930 AbstractHandlerMethodMapping.java,548 [Mapped "{[/getAllmap],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.util.List> com.inspur.exampleproject.web.controller.TestController.getAlldataMap()]
+[INFO ] 10-13 16:48:29,930 AbstractHandlerMethodMapping.java,548 [Mapped "{[/toLogin],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.inspur.exampleproject.web.controller.TestController.toLogin()]
+[INFO ] 10-13 16:48:29,933 AbstractHandlerMethodMapping.java,548 [Mapped "{[/authenticate],methods=[POST]}" onto public org.springframework.http.ResponseEntity<java.lang.Void> com.inspur.exampleproject.web.controller.TestController.login(com.inspur.exampleproject.web.resq.UserInfo)]
+[INFO ] 10-13 16:48:29,934 AbstractHandlerMethodMapping.java,548 [Mapped "{[/view/{url}]}" onto public java.lang.String com.inspur.exampleproject.web.HomeController.mainPage(java.lang.String)]
+[INFO ] 10-13 16:48:29,939 AbstractHandlerMethodMapping.java,548 [Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)]
+[INFO ] 10-13 16:48:29,940 AbstractHandlerMethodMapping.java,548 [Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)]
+[INFO ] 10-13 16:48:30,051 AbstractUrlHandlerMapping.java,373 [Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]]
+[INFO ] 10-13 16:48:30,051 AbstractUrlHandlerMapping.java,373 [Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]]
+[INFO ] 10-13 16:48:30,147 AbstractUrlHandlerMapping.java,373 [Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]]
+[INFO ] 10-13 16:48:30,626 OptionalLiveReloadServer.java,57 [LiveReload server is running on port 35729]
+[INFO ] 10-13 16:48:30,905 MBeanExporter.java,434 [Registering beans for JMX exposure on startup]
+[INFO ] 10-13 16:48:30,906 MBeanExporter.java,896 [Bean with name 'dataSource' has been autodetected for JMX exposure]
+[INFO ] 10-13 16:48:30,914 MBeanExporter.java,669 [Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]]
+[INFO ] 10-13 16:48:30,934 ContextHandler.java,2221 [Initializing Spring FrameworkServlet 'dispatcherServlet']
+[INFO ] 10-13 16:48:30,934 FrameworkServlet.java,494 [FrameworkServlet 'dispatcherServlet': initialization started]
+[INFO ] 10-13 16:48:30,959 FrameworkServlet.java,513 [FrameworkServlet 'dispatcherServlet': initialization completed in 24 ms]
+[INFO ] 10-13 16:48:30,991 AbstractConnector.java,288 [Started ServerConnector@6a450654{HTTP/1.1,[http/1.1]}{0.0.0.0:8080}]
+[INFO ] 10-13 16:48:30,995 JettyWebServer.java,158 [Jetty started on port(s) 8080 (http/1.1) with context path '/example']
+[INFO ] 10-13 16:48:31,000 StartupInfoLogger.java,59 [Started ExampleprojectApplication in 19.28 seconds (JVM running for 20.645)]
+[INFO ] 10-13 16:48:52,428 QueryTranslatorFactoryInitiator.java,47 [HHH000397: Using ASTQueryTranslatorFactory]
+[WARN ] 10-13 16:48:52,623 HttpChannel.java,568 [/example/authenticate]
+java.lang.NullPointerException
+	at com.inspur.exampleproject.service.MyUserDetailService.loadUserByUsername(MyUserDetailService.java:29)
+	at com.inspur.exampleproject.jwt.UserAuthProvider.authenticate(UserAuthProvider.java:31)
+	at org.springframework.security.authentication.ProviderManager.authenticate(ProviderManager.java:174)
+	at org.springframework.security.authentication.ProviderManager.authenticate(ProviderManager.java:199)
+	at org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter.attemptAuthentication(UsernamePasswordAuthenticationFilter.java:94)
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:212)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:200)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:200)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:66)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:105)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:56)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:215)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:178)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:357)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:270)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1637)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1637)
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:109)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1637)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:81)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1637)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1637)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:533)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:548)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:190)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:1595)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:188)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1253)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:168)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:473)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:1564)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:166)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1155)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.eclipse.jetty.server.Server.handle(Server.java:530)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:347)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:256)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:279)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:102)
+	at org.eclipse.jetty.io.ChannelEndPoint$2.run(ChannelEndPoint.java:124)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.doProduce(EatWhatYouKill.java:247)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.produce(EatWhatYouKill.java:140)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:708)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:626)
+	at java.lang.Thread.run(Unknown Source)
+[WARN ] 10-13 16:48:55,052 ErrorHandler.java,106 [Error page loop /error]
+[WARN ] 10-13 16:49:44,319 HttpChannel.java,568 [/example/authenticate]
+java.lang.NullPointerException
+	at com.inspur.exampleproject.service.MyUserDetailService.loadUserByUsername(MyUserDetailService.java:29)
+	at com.inspur.exampleproject.jwt.UserAuthProvider.authenticate(UserAuthProvider.java:31)
+	at org.springframework.security.authentication.ProviderManager.authenticate(ProviderManager.java:174)
+	at org.springframework.security.authentication.ProviderManager.authenticate(ProviderManager.java:199)
+	at org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter.attemptAuthentication(UsernamePasswordAuthenticationFilter.java:94)
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:212)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:200)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:200)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:66)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:105)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:56)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:215)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:178)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:357)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:270)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1637)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1637)
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:109)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1637)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:81)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1637)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1637)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:533)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:548)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:190)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:1595)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:188)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1253)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:168)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:473)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:1564)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:166)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1155)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.eclipse.jetty.server.Server.handle(Server.java:530)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:347)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:256)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:279)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:102)
+	at org.eclipse.jetty.io.ChannelEndPoint$2.run(ChannelEndPoint.java:124)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.doProduce(EatWhatYouKill.java:247)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.produce(EatWhatYouKill.java:140)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.run(EatWhatYouKill.java:131)
+	at org.eclipse.jetty.util.thread.ReservedThreadExecutor$ReservedThread.run(ReservedThreadExecutor.java:382)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:708)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:626)
+	at java.lang.Thread.run(Unknown Source)
+[WARN ] 10-13 16:49:46,992 ErrorHandler.java,106 [Error page loop /error]
+[WARN ] 10-13 16:54:27,774 HttpChannel.java,568 [/example/authenticate]
+java.lang.NullPointerException
+	at com.inspur.exampleproject.service.MyUserDetailService.loadUserByUsername(MyUserDetailService.java:29)
+	at com.inspur.exampleproject.jwt.UserAuthProvider.authenticate(UserAuthProvider.java:31)
+	at org.springframework.security.authentication.ProviderManager.authenticate(ProviderManager.java:174)
+	at org.springframework.security.authentication.ProviderManager.authenticate(ProviderManager.java:199)
+	at org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter.attemptAuthentication(UsernamePasswordAuthenticationFilter.java:94)
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:212)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:200)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:200)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:66)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:105)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:56)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:215)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:178)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:357)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:270)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1637)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1637)
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:109)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1637)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:81)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1637)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1637)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:533)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:548)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:190)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:1595)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:188)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1253)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:168)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:473)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:1564)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:166)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1155)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.eclipse.jetty.server.Server.handle(Server.java:530)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:347)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:256)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:279)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:102)
+	at org.eclipse.jetty.io.ChannelEndPoint$2.run(ChannelEndPoint.java:124)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.doProduce(EatWhatYouKill.java:247)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.produce(EatWhatYouKill.java:140)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.run(EatWhatYouKill.java:131)
+	at org.eclipse.jetty.util.thread.ReservedThreadExecutor$ReservedThread.run(ReservedThreadExecutor.java:382)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:708)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:626)
+	at java.lang.Thread.run(Unknown Source)
+[WARN ] 10-13 16:54:29,897 ErrorHandler.java,106 [Error page loop /error]
+[WARN ] 10-13 16:55:20,299 HttpChannel.java,568 [/example/authenticate]
+java.lang.NullPointerException
+	at com.inspur.exampleproject.service.MyUserDetailService.loadUserByUsername(MyUserDetailService.java:29)
+	at com.inspur.exampleproject.jwt.UserAuthProvider.authenticate(UserAuthProvider.java:31)
+	at org.springframework.security.authentication.ProviderManager.authenticate(ProviderManager.java:174)
+	at org.springframework.security.authentication.ProviderManager.authenticate(ProviderManager.java:199)
+	at org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter.attemptAuthentication(UsernamePasswordAuthenticationFilter.java:94)
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:212)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:200)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:200)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:66)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:105)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:56)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:215)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:178)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:357)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:270)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1637)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1637)
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:109)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1637)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:81)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1637)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1637)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:533)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:548)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:190)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:1595)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:188)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1253)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:168)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:473)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:1564)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:166)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1155)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.eclipse.jetty.server.Server.handle(Server.java:530)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:347)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:256)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:279)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:102)
+	at org.eclipse.jetty.io.ChannelEndPoint$2.run(ChannelEndPoint.java:124)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.doProduce(EatWhatYouKill.java:247)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.produce(EatWhatYouKill.java:140)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.run(EatWhatYouKill.java:131)
+	at org.eclipse.jetty.util.thread.ReservedThreadExecutor$ReservedThread.run(ReservedThreadExecutor.java:382)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:708)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:626)
+	at java.lang.Thread.run(Unknown Source)
+[WARN ] 10-13 16:55:23,225 ErrorHandler.java,106 [Error page loop /error]
+[INFO ] 10-13 16:56:36,668 AbstractApplicationContext.java,989 [Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@477a9377: startup date [Sat Oct 13 16:48:12 CST 2018]; root of context hierarchy]
+[INFO ] 10-13 16:56:36,680 MBeanExporter.java,452 [Unregistering JMX-exposed beans on shutdown]
+[INFO ] 10-13 16:56:36,683 MBeanRegistrationSupport.java,183 [Unregistering JMX-exposed beans]
+[INFO ] 10-13 16:56:36,686 AbstractEntityManagerFactoryBean.java,572 [Closing JPA EntityManagerFactory for persistence unit 'default']
+[INFO ] 10-13 16:56:36,689 HikariDataSource.java,381 [HikariPool-1 - Shutdown initiated...]
+[INFO ] 10-13 16:56:36,987 HikariDataSource.java,383 [HikariPool-1 - Shutdown completed.]
+[INFO ] 10-13 16:56:37,004 AbstractConnector.java,331 [Stopped ServerConnector@6a450654{HTTP/1.1,[http/1.1]}{0.0.0.0:8080}]
+[INFO ] 10-13 16:56:37,005 HouseKeeper.java,167 [Stopped scavenging]
+[INFO ] 10-13 16:56:37,023 ContextHandler.java,2221 [Destroying Spring FrameworkServlet 'dispatcherServlet']
+[INFO ] 10-13 16:56:37,025 ContextHandler.java,957 [Stopped o.s.b.w.e.j.JettyEmbeddedWebAppContext@7f051a73{/example,[file:///C:/Users/liyakun/AppData/Local/Temp/jetty-docbase.6542361120919756716.8080/],UNAVAILABLE}]
+[INFO ] 10-13 16:56:37,311 StartupInfoLogger.java,50 [Starting ExampleprojectApplication on liyakun00 with PID 25232 (D:\tmp\exampleproject\exampleproject\target\classes started by liyakun in D:\tmp\exampleproject\exampleproject)]
+[INFO ] 10-13 16:56:37,311 SpringApplication.java,652 [No active profile set, falling back to default profiles: default]
+[INFO ] 10-13 16:56:37,317 AbstractApplicationContext.java,589 [Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@7cc48c13: startup date [Sat Oct 13 16:56:37 CST 2018]; root of context hierarchy]
+[INFO ] 10-13 16:56:37,899 DefaultListableBeanFactory.java,824 [Overriding bean definition for bean 'dataSource' with a different definition: replacing [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Generic; factoryMethodName=dataSource; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Generic.class]] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Hikari; factoryMethodName=dataSource; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]]]
+[INFO ] 10-13 16:56:38,075 PostProcessorRegistrationDelegate.java,328 [Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$ebdb1d70] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)]
+[INFO ] 10-13 16:56:38,082 PostProcessorRegistrationDelegate.java,328 [Bean 'org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration' of type [org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration$$EnhancerBySpringCGLIB$$8488e5aa] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)]
+[INFO ] 10-13 16:56:38,084 PostProcessorRegistrationDelegate.java,328 [Bean 'objectPostProcessor' of type [org.springframework.security.config.annotation.configuration.AutowireBeanFactoryObjectPostProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)]
+[INFO ] 10-13 16:56:38,085 PostProcessorRegistrationDelegate.java,328 [Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@251a14bf' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)]
+[INFO ] 10-13 16:56:38,089 PostProcessorRegistrationDelegate.java,328 [Bean 'org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration' of type [org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration$$EnhancerBySpringCGLIB$$a95d885c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)]
+[INFO ] 10-13 16:56:38,091 PostProcessorRegistrationDelegate.java,328 [Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)]
+[INFO ] 10-13 16:56:38,263 JettyServletWebServerFactory.java,146 [Server initialized with port: 8080]
+[INFO ] 10-13 16:56:38,263 Server.java,373 [jetty-9.4.8.v20171121, build timestamp: 2017-11-22T05:27:37+08:00, git hash: 82b8fb23f757335bb3329d540ce37a2a2615f0a8]
+[INFO ] 10-13 16:56:38,271 DefaultSessionIdManager.java,364 [DefaultSessionIdManager workerName=node0]
+[INFO ] 10-13 16:56:38,272 DefaultSessionIdManager.java,369 [No SessionScavenger set, using defaults]
+[INFO ] 10-13 16:56:38,272 HouseKeeper.java,149 [Scavenging every 660000ms]
+[INFO ] 10-13 16:56:38,273 ContextHandler.java,2221 [Initializing Spring embedded WebApplicationContext]
+[INFO ] 10-13 16:56:38,274 ServletWebServerApplicationContext.java,285 [Root WebApplicationContext: initialization completed in 957 ms]
+[INFO ] 10-13 16:56:38,383 AbstractFilterRegistrationBean.java,243 [Mapping filter: 'characterEncodingFilter' to: [/*]]
+[INFO ] 10-13 16:56:38,383 AbstractFilterRegistrationBean.java,243 [Mapping filter: 'hiddenHttpMethodFilter' to: [/*]]
+[INFO ] 10-13 16:56:38,384 AbstractFilterRegistrationBean.java,243 [Mapping filter: 'httpPutFormContentFilter' to: [/*]]
+[INFO ] 10-13 16:56:38,384 AbstractFilterRegistrationBean.java,243 [Mapping filter: 'requestContextFilter' to: [/*]]
+[INFO ] 10-13 16:56:38,384 AbstractFilterRegistrationBean.java,243 [Mapping filter: 'springSecurityFilterChain' to: [/*]]
+[INFO ] 10-13 16:56:38,385 ServletRegistrationBean.java,185 [Servlet dispatcherServlet mapped to [/]]
+[INFO ] 10-13 16:56:38,385 ContextHandler.java,788 [Started o.s.b.w.e.j.JettyEmbeddedWebAppContext@465a3043{/example,[file:///C:/Users/liyakun/AppData/Local/Temp/jetty-docbase.6674492705431669287.8080/],AVAILABLE}]
+[INFO ] 10-13 16:56:38,386 Server.java,410 [Started @508032ms]
+[INFO ] 10-13 16:56:38,471 HikariDataSource.java,110 [HikariPool-2 - Starting...]
+[INFO ] 10-13 16:56:38,518 PoolBase.java,516 [HikariPool-2 - Driver does not support get/set network timeout for connections. (oracle.jdbc.driver.T4CConnection.getNetworkTimeout()I)]
+[INFO ] 10-13 16:56:38,522 HikariDataSource.java,123 [HikariPool-2 - Start completed.]
+[INFO ] 10-13 16:56:38,546 LocalContainerEntityManagerFactoryBean.java,361 [Building JPA container EntityManagerFactory for persistence unit 'default']
+[INFO ] 10-13 16:56:38,547 LogHelper.java,31 [HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]]
+[INFO ] 10-13 16:56:38,571 Dialect.java,157 [HHH000400: Using dialect: org.hibernate.dialect.Oracle12cDialect]
+[INFO ] 10-13 16:56:38,603 BasicTypeRegistry.java,148 [HHH000270: Type registration [byte[]] overrides previous : org.hibernate.type.BinaryType@6ae4d8]
+[INFO ] 10-13 16:56:38,604 BasicTypeRegistry.java,148 [HHH000270: Type registration [[B] overrides previous : org.hibernate.type.BinaryType@6ae4d8]
+[INFO ] 10-13 16:56:38,604 BasicTypeRegistry.java,148 [HHH000270: Type registration [Byte[]] overrides previous : org.hibernate.type.WrapperBinaryType@1c6bc1d0]
+[INFO ] 10-13 16:56:38,605 BasicTypeRegistry.java,148 [HHH000270: Type registration [[Ljava.lang.Byte;] overrides previous : org.hibernate.type.WrapperBinaryType@1c6bc1d0]
+[INFO ] 10-13 16:56:45,866 AbstractEntityManagerFactoryBean.java,394 [Initialized JPA EntityManagerFactory for persistence unit 'default']
+[INFO ] 10-13 16:56:49,254 DefaultSecurityFilterChain.java,43 [Creating filter chain: org.springframework.security.web.util.matcher.AnyRequestMatcher@1, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@467d7db1, org.springframework.security.web.context.SecurityContextPersistenceFilter@291c2536, org.springframework.security.web.header.HeaderWriterFilter@5127962f, org.springframework.security.web.authentication.logout.LogoutFilter@5abcf94e, com.inspur.exampleproject.jwt.JWTLoginFilter@7038e18e, com.inspur.exampleproject.jwt.JWTLoginFilter@7a8d9d81, com.inspur.exampleproject.jwt.JWTAuthenticationFilter@3494e56e, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@4eb85672, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@23432764, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@192986b8, org.springframework.security.web.session.SessionManagementFilter@4ce6ac1e, org.springframework.security.web.access.ExceptionTranslationFilter@2ee93542, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@70d7c00e]]
+[INFO ] 10-13 16:56:49,430 RequestMappingHandlerAdapter.java,567 [Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@7cc48c13: startup date [Sat Oct 13 16:56:37 CST 2018]; root of context hierarchy]
+[WARN ] 10-13 16:56:49,463 JpaBaseConfiguration.java,235 [spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning]
+[INFO ] 10-13 16:56:49,474 AbstractHandlerMethodMapping.java,548 [Mapped "{[/getAlldata],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.util.List<com.inspur.exampleproject.entity.DemoTest>> com.inspur.exampleproject.web.controller.TestController.getAlldata()]
+[INFO ] 10-13 16:56:49,475 AbstractHandlerMethodMapping.java,548 [Mapped "{[/getAllmap],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.util.List> com.inspur.exampleproject.web.controller.TestController.getAlldataMap()]
+[INFO ] 10-13 16:56:49,476 AbstractHandlerMethodMapping.java,548 [Mapped "{[/toLogin],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.inspur.exampleproject.web.controller.TestController.toLogin()]
+[INFO ] 10-13 16:56:49,476 AbstractHandlerMethodMapping.java,548 [Mapped "{[/authenticate],methods=[POST]}" onto public org.springframework.http.ResponseEntity<java.lang.Void> com.inspur.exampleproject.web.controller.TestController.login(com.inspur.exampleproject.web.resq.UserInfo)]
+[INFO ] 10-13 16:56:49,477 AbstractHandlerMethodMapping.java,548 [Mapped "{[/view/{url}]}" onto public java.lang.String com.inspur.exampleproject.web.HomeController.mainPage(java.lang.String)]
+[INFO ] 10-13 16:56:49,482 AbstractHandlerMethodMapping.java,548 [Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)]
+[INFO ] 10-13 16:56:49,484 AbstractHandlerMethodMapping.java,548 [Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)]
+[INFO ] 10-13 16:56:49,567 AbstractUrlHandlerMapping.java,373 [Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]]
+[INFO ] 10-13 16:56:49,567 AbstractUrlHandlerMapping.java,373 [Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]]
+[INFO ] 10-13 16:56:49,619 AbstractUrlHandlerMapping.java,373 [Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]]
+[INFO ] 10-13 16:56:49,802 OptionalLiveReloadServer.java,57 [LiveReload server is running on port 35729]
+[INFO ] 10-13 16:56:50,064 MBeanExporter.java,434 [Registering beans for JMX exposure on startup]
+[INFO ] 10-13 16:56:50,066 MBeanExporter.java,896 [Bean with name 'dataSource' has been autodetected for JMX exposure]
+[INFO ] 10-13 16:56:50,072 MBeanExporter.java,669 [Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]]
+[INFO ] 10-13 16:56:50,080 ContextHandler.java,2221 [Initializing Spring FrameworkServlet 'dispatcherServlet']
+[INFO ] 10-13 16:56:50,080 FrameworkServlet.java,494 [FrameworkServlet 'dispatcherServlet': initialization started]
+[INFO ] 10-13 16:56:50,088 FrameworkServlet.java,513 [FrameworkServlet 'dispatcherServlet': initialization completed in 8 ms]
+[INFO ] 10-13 16:56:50,091 AbstractConnector.java,288 [Started ServerConnector@514393a6{HTTP/1.1,[http/1.1]}{0.0.0.0:8080}]
+[INFO ] 10-13 16:56:50,092 JettyWebServer.java,158 [Jetty started on port(s) 8080 (http/1.1) with context path '/example']
+[INFO ] 10-13 16:56:50,093 StartupInfoLogger.java,59 [Started ExampleprojectApplication in 12.821 seconds (JVM running for 519.74)]
+[INFO ] 10-13 16:56:50,097 ConditionEvaluationDeltaLoggingListener.java,56 [Condition evaluation unchanged]
+[ERROR] 10-13 16:57:10,283 JWTAuthenticationFilter.java,70 [签名失败: {} io.jsonwebtoken.SignatureException: JWT signature does not match locally computed signature. JWT validity cannot be asserted and should not be trusted.]
+[INFO ] 10-13 16:57:20,766 TestController.java,53 [打印的信息===aaa]
+[INFO ] 10-13 16:57:46,656 QueryTranslatorFactoryInitiator.java,47 [HHH000397: Using ASTQueryTranslatorFactory]
+[INFO ] 10-13 17:00:44,010 AbstractApplicationContext.java,989 [Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@7cc48c13: startup date [Sat Oct 13 16:56:37 CST 2018]; root of context hierarchy]
+[INFO ] 10-13 17:00:44,018 MBeanExporter.java,452 [Unregistering JMX-exposed beans on shutdown]
+[INFO ] 10-13 17:00:44,018 MBeanRegistrationSupport.java,183 [Unregistering JMX-exposed beans]
+[INFO ] 10-13 17:00:44,020 AbstractEntityManagerFactoryBean.java,572 [Closing JPA EntityManagerFactory for persistence unit 'default']
+[INFO ] 10-13 17:00:44,021 HikariDataSource.java,381 [HikariPool-2 - Shutdown initiated...]
+[INFO ] 10-13 17:00:44,478 HikariDataSource.java,383 [HikariPool-2 - Shutdown completed.]
+[INFO ] 10-13 17:00:44,499 AbstractConnector.java,331 [Stopped ServerConnector@514393a6{HTTP/1.1,[http/1.1]}{0.0.0.0:8080}]
+[INFO ] 10-13 17:00:44,501 HouseKeeper.java,167 [Stopped scavenging]
+[INFO ] 10-13 17:00:44,526 ContextHandler.java,2221 [Destroying Spring FrameworkServlet 'dispatcherServlet']
+[INFO ] 10-13 17:00:44,527 ContextHandler.java,957 [Stopped o.s.b.w.e.j.JettyEmbeddedWebAppContext@465a3043{/example,[file:///C:/Users/liyakun/AppData/Local/Temp/jetty-docbase.6674492705431669287.8080/],UNAVAILABLE}]
+[INFO ] 10-13 17:00:44,925 StartupInfoLogger.java,50 [Starting ExampleprojectApplication on liyakun00 with PID 25232 (D:\tmp\exampleproject\exampleproject\target\classes started by liyakun in D:\tmp\exampleproject\exampleproject)]
+[INFO ] 10-13 17:00:44,926 SpringApplication.java,652 [No active profile set, falling back to default profiles: default]
+[INFO ] 10-13 17:00:44,933 AbstractApplicationContext.java,589 [Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@5f747f25: startup date [Sat Oct 13 17:00:44 CST 2018]; root of context hierarchy]
+[INFO ] 10-13 17:00:45,521 DefaultListableBeanFactory.java,824 [Overriding bean definition for bean 'dataSource' with a different definition: replacing [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Generic; factoryMethodName=dataSource; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Generic.class]] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Hikari; factoryMethodName=dataSource; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]]]
+[INFO ] 10-13 17:00:45,696 PostProcessorRegistrationDelegate.java,328 [Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$ebdb1d70] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)]
+[INFO ] 10-13 17:00:45,701 PostProcessorRegistrationDelegate.java,328 [Bean 'org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration' of type [org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration$$EnhancerBySpringCGLIB$$8488e5aa] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)]
+[INFO ] 10-13 17:00:45,707 PostProcessorRegistrationDelegate.java,328 [Bean 'objectPostProcessor' of type [org.springframework.security.config.annotation.configuration.AutowireBeanFactoryObjectPostProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)]
+[INFO ] 10-13 17:00:45,708 PostProcessorRegistrationDelegate.java,328 [Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@2a940cd4' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)]
+[INFO ] 10-13 17:00:45,714 PostProcessorRegistrationDelegate.java,328 [Bean 'org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration' of type [org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration$$EnhancerBySpringCGLIB$$a95d885c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)]
+[INFO ] 10-13 17:00:45,717 PostProcessorRegistrationDelegate.java,328 [Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)]
+[INFO ] 10-13 17:00:45,858 JettyServletWebServerFactory.java,146 [Server initialized with port: 8080]
+[INFO ] 10-13 17:00:45,858 Server.java,373 [jetty-9.4.8.v20171121, build timestamp: 2017-11-22T05:27:37+08:00, git hash: 82b8fb23f757335bb3329d540ce37a2a2615f0a8]
+[INFO ] 10-13 17:00:45,865 DefaultSessionIdManager.java,364 [DefaultSessionIdManager workerName=node0]
+[INFO ] 10-13 17:00:45,865 DefaultSessionIdManager.java,369 [No SessionScavenger set, using defaults]
+[INFO ] 10-13 17:00:45,866 HouseKeeper.java,149 [Scavenging every 660000ms]
+[INFO ] 10-13 17:00:45,867 ContextHandler.java,2221 [Initializing Spring embedded WebApplicationContext]
+[INFO ] 10-13 17:00:45,869 ServletWebServerApplicationContext.java,285 [Root WebApplicationContext: initialization completed in 936 ms]
+[INFO ] 10-13 17:00:45,970 AbstractFilterRegistrationBean.java,243 [Mapping filter: 'characterEncodingFilter' to: [/*]]
+[INFO ] 10-13 17:00:45,971 AbstractFilterRegistrationBean.java,243 [Mapping filter: 'hiddenHttpMethodFilter' to: [/*]]
+[INFO ] 10-13 17:00:45,971 AbstractFilterRegistrationBean.java,243 [Mapping filter: 'httpPutFormContentFilter' to: [/*]]
+[INFO ] 10-13 17:00:45,971 AbstractFilterRegistrationBean.java,243 [Mapping filter: 'requestContextFilter' to: [/*]]
+[INFO ] 10-13 17:00:45,972 AbstractFilterRegistrationBean.java,243 [Mapping filter: 'springSecurityFilterChain' to: [/*]]
+[INFO ] 10-13 17:00:45,972 ServletRegistrationBean.java,185 [Servlet dispatcherServlet mapped to [/]]
+[INFO ] 10-13 17:00:45,972 ContextHandler.java,788 [Started o.s.b.w.e.j.JettyEmbeddedWebAppContext@bd2688b{/example,[file:///C:/Users/liyakun/AppData/Local/Temp/jetty-docbase.4179374630180354053.8080/],AVAILABLE}]
+[INFO ] 10-13 17:00:45,973 Server.java,410 [Started @755619ms]
+[INFO ] 10-13 17:00:46,028 HikariDataSource.java,110 [HikariPool-3 - Starting...]
+[INFO ] 10-13 17:00:46,166 PoolBase.java,516 [HikariPool-3 - Driver does not support get/set network timeout for connections. (oracle.jdbc.driver.T4CConnection.getNetworkTimeout()I)]
+[INFO ] 10-13 17:00:46,169 HikariDataSource.java,123 [HikariPool-3 - Start completed.]
+[INFO ] 10-13 17:00:46,183 LocalContainerEntityManagerFactoryBean.java,361 [Building JPA container EntityManagerFactory for persistence unit 'default']
+[INFO ] 10-13 17:00:46,183 LogHelper.java,31 [HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]]
+[INFO ] 10-13 17:00:46,198 Dialect.java,157 [HHH000400: Using dialect: org.hibernate.dialect.Oracle12cDialect]
+[INFO ] 10-13 17:00:46,238 BasicTypeRegistry.java,148 [HHH000270: Type registration [byte[]] overrides previous : org.hibernate.type.BinaryType@6ae4d8]
+[INFO ] 10-13 17:00:46,239 BasicTypeRegistry.java,148 [HHH000270: Type registration [[B] overrides previous : org.hibernate.type.BinaryType@6ae4d8]
+[INFO ] 10-13 17:00:46,239 BasicTypeRegistry.java,148 [HHH000270: Type registration [Byte[]] overrides previous : org.hibernate.type.WrapperBinaryType@1c6bc1d0]
+[INFO ] 10-13 17:00:46,239 BasicTypeRegistry.java,148 [HHH000270: Type registration [[Ljava.lang.Byte;] overrides previous : org.hibernate.type.WrapperBinaryType@1c6bc1d0]
+[INFO ] 10-13 17:00:53,685 AbstractEntityManagerFactoryBean.java,394 [Initialized JPA EntityManagerFactory for persistence unit 'default']
+[INFO ] 10-13 17:00:56,602 DefaultSecurityFilterChain.java,43 [Creating filter chain: org.springframework.security.web.util.matcher.AnyRequestMatcher@1, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@7dbb6ae6, org.springframework.security.web.context.SecurityContextPersistenceFilter@52b6d4b5, org.springframework.security.web.header.HeaderWriterFilter@27727226, org.springframework.security.web.authentication.logout.LogoutFilter@69049f5c, com.inspur.exampleproject.jwt.JWTLoginFilter@1a118dc3, com.inspur.exampleproject.jwt.JWTLoginFilter@630c62ae, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@df3edb5, com.inspur.exampleproject.jwt.JWTAuthenticationFilter@498aca7, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@641565fa, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@5042d81c, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@22520a88, org.springframework.security.web.session.SessionManagementFilter@7ae862fa, org.springframework.security.web.access.ExceptionTranslationFilter@36a016b7, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@2cb96949]]
+[INFO ] 10-13 17:00:56,778 RequestMappingHandlerAdapter.java,567 [Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@5f747f25: startup date [Sat Oct 13 17:00:44 CST 2018]; root of context hierarchy]
+[WARN ] 10-13 17:00:56,808 JpaBaseConfiguration.java,235 [spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning]
+[INFO ] 10-13 17:00:56,816 AbstractHandlerMethodMapping.java,548 [Mapped "{[/getAlldata],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.util.List<com.inspur.exampleproject.entity.DemoTest>> com.inspur.exampleproject.web.controller.TestController.getAlldata()]
+[INFO ] 10-13 17:00:56,816 AbstractHandlerMethodMapping.java,548 [Mapped "{[/getAllmap],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.util.List> com.inspur.exampleproject.web.controller.TestController.getAlldataMap()]
+[INFO ] 10-13 17:00:56,817 AbstractHandlerMethodMapping.java,548 [Mapped "{[/toLogin],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.inspur.exampleproject.web.controller.TestController.toLogin()]
+[INFO ] 10-13 17:00:56,817 AbstractHandlerMethodMapping.java,548 [Mapped "{[/authenticate],methods=[POST]}" onto public org.springframework.http.ResponseEntity<java.lang.Void> com.inspur.exampleproject.web.controller.TestController.login(com.inspur.exampleproject.web.resq.UserInfo)]
+[INFO ] 10-13 17:00:56,818 AbstractHandlerMethodMapping.java,548 [Mapped "{[/view/{url}]}" onto public java.lang.String com.inspur.exampleproject.web.HomeController.mainPage(java.lang.String)]
+[INFO ] 10-13 17:00:56,821 AbstractHandlerMethodMapping.java,548 [Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)]
+[INFO ] 10-13 17:00:56,822 AbstractHandlerMethodMapping.java,548 [Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)]
+[INFO ] 10-13 17:00:56,890 AbstractUrlHandlerMapping.java,373 [Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]]
+[INFO ] 10-13 17:00:56,890 AbstractUrlHandlerMapping.java,373 [Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]]
+[INFO ] 10-13 17:00:56,941 AbstractUrlHandlerMapping.java,373 [Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]]
+[INFO ] 10-13 17:00:57,107 OptionalLiveReloadServer.java,57 [LiveReload server is running on port 35729]
+[INFO ] 10-13 17:00:57,354 MBeanExporter.java,434 [Registering beans for JMX exposure on startup]
+[INFO ] 10-13 17:00:57,355 MBeanExporter.java,896 [Bean with name 'dataSource' has been autodetected for JMX exposure]
+[INFO ] 10-13 17:00:57,360 MBeanExporter.java,669 [Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]]
+[INFO ] 10-13 17:00:57,366 ContextHandler.java,2221 [Initializing Spring FrameworkServlet 'dispatcherServlet']
+[INFO ] 10-13 17:00:57,367 FrameworkServlet.java,494 [FrameworkServlet 'dispatcherServlet': initialization started]
+[INFO ] 10-13 17:00:57,374 FrameworkServlet.java,513 [FrameworkServlet 'dispatcherServlet': initialization completed in 7 ms]
+[INFO ] 10-13 17:00:57,377 AbstractConnector.java,288 [Started ServerConnector@6f214195{HTTP/1.1,[http/1.1]}{0.0.0.0:8080}]
+[INFO ] 10-13 17:00:57,377 JettyWebServer.java,158 [Jetty started on port(s) 8080 (http/1.1) with context path '/example']
+[INFO ] 10-13 17:00:57,379 StartupInfoLogger.java,59 [Started ExampleprojectApplication in 12.496 seconds (JVM running for 767.026)]
+[INFO ] 10-13 17:00:57,386 ConditionEvaluationDeltaLoggingListener.java,56 [Condition evaluation unchanged]
+[INFO ] 10-13 17:01:17,193 QueryTranslatorFactoryInitiator.java,47 [HHH000397: Using ASTQueryTranslatorFactory]
+[INFO ] 10-13 17:02:07,753 SpringApplicationAdminMXBeanRegistrar.java,132 [Application shutdown requested.]
+[INFO ] 10-13 17:02:07,754 AbstractApplicationContext.java,989 [Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@5f747f25: startup date [Sat Oct 13 17:00:44 CST 2018]; root of context hierarchy]
+[INFO ] 10-13 17:02:07,757 MBeanExporter.java,452 [Unregistering JMX-exposed beans on shutdown]
+[INFO ] 10-13 17:02:07,757 MBeanRegistrationSupport.java,183 [Unregistering JMX-exposed beans]
+[INFO ] 10-13 17:02:07,758 AbstractEntityManagerFactoryBean.java,572 [Closing JPA EntityManagerFactory for persistence unit 'default']
+[INFO ] 10-13 17:02:07,759 HikariDataSource.java,381 [HikariPool-3 - Shutdown initiated...]
+[INFO ] 10-13 17:02:08,130 HikariDataSource.java,383 [HikariPool-3 - Shutdown completed.]
+[INFO ] 10-13 17:02:08,143 AbstractConnector.java,331 [Stopped ServerConnector@6f214195{HTTP/1.1,[http/1.1]}{0.0.0.0:8080}]
+[INFO ] 10-13 17:02:08,146 HouseKeeper.java,167 [Stopped scavenging]
+[INFO ] 10-13 17:02:08,161 ContextHandler.java,2221 [Destroying Spring FrameworkServlet 'dispatcherServlet']
+[INFO ] 10-13 17:02:08,162 ContextHandler.java,957 [Stopped o.s.b.w.e.j.JettyEmbeddedWebAppContext@bd2688b{/example,[file:///C:/Users/liyakun/AppData/Local/Temp/jetty-docbase.4179374630180354053.8080/],UNAVAILABLE}]
